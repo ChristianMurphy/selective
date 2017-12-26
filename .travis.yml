@@ -6,8 +6,9 @@ node_js:
   - 'node'
 
 install:
+  - yarn install
   - yarn global add lerna
-  - lerna install
+  - lerna bootstrap
 
 script:
   - yarn test
