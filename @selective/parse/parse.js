@@ -2,6 +2,19 @@ const { parse } = require("postcss");
 const knownDecl = ["name", "description", "recommended"];
 const expectedProperties = ["selector", "name", "description", "recommended"];
 
+/**
+ * typedef {object} rule
+ * @property {string} selector - CSS selector
+ * @property {string} name - Name of the rule, lowercase dash separated
+ * @property {string} description - Sentence describing the anti-pattern
+ * @property {string} recommended - Recommended reporting level for this rule
+ */
+
+/**
+ * Takes a selective lint (css-like) configuration and produces a {rule}.
+ * @param {string} configText - Configuration text.
+ * @returns {rule[]} List of rules from config file.
+ */
 module.exports = configText => {
   const configTree = parse(configText);
   const rules = [];

@@ -28,7 +28,9 @@
     "@commitlint/prompt-cli": "^5.2.8",
     "@commitlint/travis-cli": "^5.2.8",
     "eslint": "^4.14.0",
+    "eslint-config-standard-jsdoc": "^0.3.2",
     "eslint-plugin-jest": "^21.5.0",
+    "eslint-plugin-jsdoc": "^3.3.0",
     "husky": "^0.14.3",
     "jest": "^22.0.4",
     "lerna": "^2.5.1",
@@ -42,8 +44,12 @@
     ]
   },
   "eslintConfig": {
-    "extends": ["eslint:recommended", "plugin:jest/recommended"],
-    "plugins": ["jest"],
+    "extends": [
+      "eslint:recommended",
+      "plugin:jest/recommended",
+      "standard-jsdoc"
+    ],
+    "plugins": ["jest", "jsdoc"],
     "env": {
       "jest/globals": true,
       "node": true
