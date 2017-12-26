@@ -18,7 +18,8 @@
     "lint-commit": "commitlint --from HEAD~1",
     "lint-commit-ci": "commitlint-travis",
     "lint-javascript": "eslint --ignore-path .gitignore .",
-    "lint-markdown": "remark . --frail --ignore-path .gitignore",
+    "lint-markdown":
+      "remark . --frail --ignore-path .gitignore && eslint --ignore-path .gitignore . --ext md .",
     "test": "jest",
     "coverage": "jest --coverage"
   },
@@ -32,6 +33,7 @@
     "eslint-config-standard-jsdoc": "^0.3.2",
     "eslint-plugin-jest": "^21.5.0",
     "eslint-plugin-jsdoc": "^3.3.0",
+    "eslint-plugin-markdown": "^1.0.0-beta.6",
     "husky": "^0.14.3",
     "jest": "^22.0.4",
     "lerna": "^2.5.1",
@@ -54,7 +56,7 @@
       "plugin:jest/recommended",
       "standard-jsdoc"
     ],
-    "plugins": ["jest", "jsdoc"],
+    "plugins": ["jest", "jsdoc", "markdown"],
     "env": {
       "jest/globals": true,
       "node": true
