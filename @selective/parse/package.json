@@ -11,6 +11,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "postcss": "^6.0.14"
+    "postcss": "6.0.14"
   }
 }
