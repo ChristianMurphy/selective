@@ -75,7 +75,8 @@
     "plugins": [
       "preset-lint-recommended",
       "preset-lint-consistent",
-      "validate-links"
+      "validate-links",
+      ["remark-lint-list-item-indent", "mixed"]
     ]
   }
 }
