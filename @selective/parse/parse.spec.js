@@ -35,3 +35,9 @@ test("error on unexpected property", () => {
   const string = ".test { nope: 'should not be here' }";
   expect(() => parse(string)).toThrow();
 });
+
+test("error on missing declaration", () => {
+  const string =
+    ".test { description: 'test description'; recommended: warn' }";
+  expect(() => parse(string)).toThrow();
+});
