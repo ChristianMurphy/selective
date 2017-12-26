@@ -17,7 +17,9 @@
     "lint": "yarn lint-javascript && yarn lint-commit",
     "lint-commit": "commitlint --from HEAD~1",
     "lint-commit-ci": "commitlint-travis",
-    "lint-javascript": "eslint --ignore-path .gitignore ."
+    "lint-javascript": "eslint --ignore-path .gitignore .",
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
   "devDependencies": {
     "@commitlint/cli": "^5.2.8",
@@ -26,7 +28,9 @@
     "@commitlint/prompt-cli": "^5.2.8",
     "@commitlint/travis-cli": "^5.2.8",
     "eslint": "^4.14.0",
+    "eslint-plugin-jest": "^21.5.0",
     "husky": "^0.14.3",
+    "jest": "^22.0.4",
     "lerna": "^2.5.1",
     "lint-staged": "^6.0.0",
     "prettier": "^1.9.2"
@@ -38,7 +42,11 @@
     ]
   },
   "eslintConfig": {
-    "extends": "eslint:recommended",
+    "extends": ["eslint:recommended", "plugin:jest/recommended"],
+    "plugins": ["jest"],
+    "env": {
+      "jest/globals": true
+    },
     "parserOptions": {
       "ecmaVersion": 2017
     }
