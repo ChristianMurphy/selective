@@ -1,4 +1,4 @@
-const parse = require("./parse.js");
+const parse = require("./parse");
 
 test("trim single quotes", () => {
   const string =
