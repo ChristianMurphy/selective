@@ -13,12 +13,18 @@
   "scripts": {
     "format": "prettier --write *.{js,json,md}",
     "precommit": "lint-staged",
-    "lint": "eslint --ignore-path .gitignore ."
+    "commit": "commit",
+    "lint": "yarn lint-javascript && yarn lint-commit",
+    "lint-commit": "commitlint --from HEAD~1",
+    "lint-commit-ci": "commitlint-travis",
+    "lint-javascript": "eslint --ignore-path .gitignore ."
   },
   "devDependencies": {
     "@commitlint/cli": "^5.2.8",
     "@commitlint/config-conventional": "^5.2.3",
     "@commitlint/config-lerna-scopes": "^5.2.7",
+    "@commitlint/prompt-cli": "^5.2.8",
+    "@commitlint/travis-cli": "^5.2.8",
     "eslint": "^4.14.0",
     "husky": "^0.14.3",
     "lerna": "^2.5.1",

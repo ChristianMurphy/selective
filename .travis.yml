@@ -1,0 +1,12 @@
+language: node_js
+
+node_js:
+  - '7' # version of Node.js currently powering electron
+  - '8'
+  - 'node'
+
+script:
+  - yarn lint-javascript
+  - yarn lint-commit-ci
+
+cache: yarn
