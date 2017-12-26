@@ -2,15 +2,42 @@
   "name": "selective",
   "version": "0.0.0",
   "description": "use CSS selectors to find anti-patterns in HTML",
-  "main": "index.js",
   "repository": "https://github.com/ChristianMurphy/selective.git",
+  "private": true,
+  "license": "MIT",
   "author": {
     "name": "Christian Murphy",
     "email": "Christian.Murphy.42@gmail.com",
     "url": "https://github.com/ChristianMurphy"
   },
-  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write *.{js,json,md}",
+    "precommit": "lint-staged",
+    "lint": "eslint --ignore-path .gitignore ."
+  },
   "devDependencies": {
-    "lerna": "^2.5.1"
+    "@commitlint/cli": "^5.2.8",
+    "@commitlint/config-conventional": "^5.2.3",
+    "@commitlint/config-lerna-scopes": "^5.2.7",
+    "eslint": "^4.14.0",
+    "husky": "^0.14.3",
+    "lerna": "^2.5.1",
+    "lint-staged": "^6.0.0",
+    "prettier": "^1.9.2"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional",
+      "@commitlint/config-lerna-scopes"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 2017
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,md}": ["prettier --write", "git add"]
   }
 }
