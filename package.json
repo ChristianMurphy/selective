@@ -45,7 +45,8 @@
     "extends": ["eslint:recommended", "plugin:jest/recommended"],
     "plugins": ["jest"],
     "env": {
-      "jest/globals": true
+      "jest/globals": true,
+      "node": true
     },
     "parserOptions": {
       "ecmaVersion": 2017
