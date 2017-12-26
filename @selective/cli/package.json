@@ -1,0 +1,17 @@
+{
+  "name": "@selective/cli",
+  "version": "0.0.0",
+  "description": "Command line interface for selective lint",
+  "main": "index.js",
+  "repository": "https://github.com/ChristianMurphy/selective.git",
+  "author": {
+    "name": "Christian Murphy",
+    "email": "Christian.Murphy.42@gmail.com",
+    "url": "https://github.com/ChristianMurphy"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@selective/lint": "0.0.0",
+    "@selective/parse": "0.0.0"
+  }
+}

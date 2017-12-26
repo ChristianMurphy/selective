@@ -1,0 +1,13 @@
+{
+  "name": "@selective/parse",
+  "version": "0.0.0",
+  "description": "Parse selective configuration files into JSON",
+  "main": "index.js",
+  "repository": "https://github.com/ChristianMurphy/selective.git",
+  "author": {
+    "name": "Christian Murphy",
+    "email": "Christian.Murphy.42@gmail.com",
+    "url": "https://github.com/ChristianMurphy"
+  },
+  "license": "MIT"
+}
