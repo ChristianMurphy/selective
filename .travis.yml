@@ -12,6 +12,7 @@ before_script:
 script:
   - yarn test
   - yarn lint-javascript
+  - yarn lint-markdown
   - yarn lint-commit-ci
 
 cache: yarn
