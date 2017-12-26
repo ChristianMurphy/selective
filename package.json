@@ -14,10 +14,11 @@
     "format": "prettier --write *.{js,json,md}",
     "precommit": "lint-staged",
     "commit": "commit",
-    "lint": "yarn lint-javascript && yarn lint-commit",
+    "lint": "yarn lint-javascript && yarn lint-markdown && yarn lint-commit",
     "lint-commit": "commitlint --from HEAD~1",
     "lint-commit-ci": "commitlint-travis",
     "lint-javascript": "eslint --ignore-path .gitignore .",
+    "lint-markdown": "remark . --frail --ignore-path .gitignore",
     "test": "jest",
     "coverage": "jest --coverage"
   },
@@ -35,7 +36,11 @@
     "jest": "^22.0.4",
     "lerna": "^2.5.1",
     "lint-staged": "^6.0.0",
-    "prettier": "^1.9.2"
+    "prettier": "^1.9.2",
+    "remark-cli": "^4.0.0",
+    "remark-preset-lint-consistent": "^2.0.1",
+    "remark-preset-lint-recommended": "^3.0.1",
+    "remark-validate-links": "^7.0.0"
   },
   "commitlint": {
     "extends": [
@@ -60,5 +65,15 @@
   },
   "lint-staged": {
     "*.{js,json,md}": ["prettier --write", "git add"]
+  },
+  "remarkConfig": {
+    "settings": {
+      "ignoreName": ".gitignore"
+    },
+    "plugins": [
+      "preset-lint-recommended",
+      "preset-lint-consistent",
+      "validate-links"
+    ]
   }
 }
