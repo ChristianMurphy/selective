@@ -1,0 +1,11 @@
+img:not([alt]) {
+  name: 'img-alt';
+  description: 'image tag must contain an alt property';
+  recommended: warn;
+}
+
+img:not([src]) {
+  name: 'img-src';
+  description: 'image tag must contain an src property';
+  recommended: warn;
+}
