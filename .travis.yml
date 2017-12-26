@@ -6,6 +6,7 @@ node_js:
   - 'node'
 
 script:
+  - yarn test
   - yarn lint-javascript
   - yarn lint-commit-ci
 
