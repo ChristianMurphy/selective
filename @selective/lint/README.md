@@ -14,14 +14,20 @@ yarn add @selective/lint
 
 ## Usage
 
+<!-- eslint-disable no-console -->
+
 ```javascript
+const rehype = require("rehype");
+const lint = require("@selective/lint");
+const { readFileSync } = require("fs");
+
 rehype()
-  .use(rehypePlugin, [
+  .use(lint, [
     {
-      name: "test-name",
-      description: "test description",
+      name: "img-alt",
+      description: "image tag must contain an alt property",
       recommended: "warn",
-      selector: ".test"
+      selector: "img:not([alt])"
     }
   ])
   .process(readFileSync("somefile.html"), err => {

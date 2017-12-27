@@ -87,9 +87,15 @@ this can be additionally customized with a custom config file path
 
 ## Programmatic Usage
 
+<!-- eslint-disable no-console -->
+
 ```javascript
+const rehype = require("rehype");
+const selectiveRehype = require("@selective/rehype");
+const { readFileSync } = require("fs");
+
 rehype()
-  .use(rehypePlugin, {
+  .use(selectiveRehype, {
     config: "config.selective"
   })
   .process(readFileSync("somefile.html"), err => {
