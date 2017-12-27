@@ -10,6 +10,9 @@
     "url": "https://github.com/ChristianMurphy"
   },
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "postcss": "6.0.14"
   }
