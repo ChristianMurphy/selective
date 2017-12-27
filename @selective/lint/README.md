@@ -1,5 +1,8 @@
 # Selective lint
 
+[![NPM Version](https://img.shields.io/npm/v/@selective/lint.svg)](https://www.npmjs.com/package/@selective/lint)
+[![Build Status](https://travis-ci.org/ChristianMurphy/selective.svg?branch=master)](https://travis-ci.org/ChristianMurphy/selective)
+
 > Creates a [Rehype][] plugin from JSON rules to check for HTML anti patterns and reports issues back as [vFile][] messages
 
 ## Installation

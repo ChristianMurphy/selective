@@ -1,5 +1,8 @@
 # selective parse
 
+[![NPM Version](https://img.shields.io/npm/v/@selective/parse.svg)](https://www.npmjs.com/package/@selective/parse)
+[![Build Status](https://travis-ci.org/ChristianMurphy/selective.svg?branch=master)](https://travis-ci.org/ChristianMurphy/selective)
+
 > Converts selective's css-like domain specific language to a list of JSON rules
 
 ## Installation
