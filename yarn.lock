@@ -10,7 +10,7 @@
     esutils "^2.0.2"
     js-tokens "^3.0.0"
 
-"@commitlint/cli@^5.2.8":
+"@commitlint/cli@5.2.8", "@commitlint/cli@^5.2.8":
   version "5.2.8"
   resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-5.2.8.tgz#593e0d16d1d6ebba9994893a4cc933d1b212ae0c"
   dependencies:
@@ -22,11 +22,11 @@
     lodash.pick "4.4.0"
     meow "3.7.0"
 
-"@commitlint/config-conventional@^5.2.3":
+"@commitlint/config-conventional@5.2.3":
   version "5.2.3"
   resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-5.2.3.tgz#63671b32b65cb68e7b238405403194b558ff559a"
 
-"@commitlint/config-lerna-scopes@^5.2.7":
+"@commitlint/config-lerna-scopes@5.2.7":
   version "5.2.7"
   resolved "https://registry.yarnpkg.com/@commitlint/config-lerna-scopes/-/config-lerna-scopes-5.2.7.tgz#2e23e3c5504c1d0930a9b2385607bbbf7fb527fc"
   dependencies:
@@ -87,7 +87,7 @@
     conventional-changelog-angular "^1.3.3"
     conventional-commits-parser "^2.1.0"
 
-"@commitlint/prompt-cli@^5.2.8":
+"@commitlint/prompt-cli@5.2.8":
   version "5.2.8"
   resolved "https://registry.yarnpkg.com/@commitlint/prompt-cli/-/prompt-cli-5.2.8.tgz#6f286a8af66faac09243aca344bdafbb372f8792"
   dependencies:
@@ -141,7 +141,7 @@
   dependencies:
     find-up "^2.1.0"
 
-"@commitlint/travis-cli@^5.2.8":
+"@commitlint/travis-cli@5.2.8":
   version "5.2.8"
   resolved "https://registry.yarnpkg.com/@commitlint/travis-cli/-/travis-cli-5.2.8.tgz#457bcd1627f0cfa578ba5adfcdef3f56ec25465f"
   dependencies:
@@ -1289,26 +1289,26 @@ escodegen@^1.9.0:
   optionalDependencies:
     source-map "~0.5.6"
 
-eslint-config-standard-jsdoc@^0.3.2:
+eslint-config-standard-jsdoc@0.3.2:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/eslint-config-standard-jsdoc/-/eslint-config-standard-jsdoc-0.3.2.tgz#883588141c0fe17bf05629ccfed6b411d7ce72fd"
   dependencies:
     eslint-plugin-jsdoc ">=1.1.0"
 
-eslint-plugin-jest@^21.5.0:
+eslint-plugin-jest@21.5.0:
   version "21.5.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-21.5.0.tgz#c7a3bd2ee9d1c832b4e31dec89f6ad93e08d4853"
 
-eslint-plugin-jsdoc@>=1.1.0, eslint-plugin-jsdoc@^3.3.0:
+eslint-plugin-jsdoc@3.3.0, eslint-plugin-jsdoc@>=1.1.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-3.3.0.tgz#fc28597d2d1754bd0fea5c201f0092418191a09c"
   dependencies:
     comment-parser "^0.4.2"
     lodash "^4.17.4"
 
-eslint-plugin-markdown@^1.0.0-beta.6:
-  version "1.0.0-beta.6"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-markdown/-/eslint-plugin-markdown-1.0.0-beta.6.tgz#d9e62666eea4e76387e85f502df668abdfbd4395"
+eslint-plugin-markdown@1.0.0-beta.7:
+  version "1.0.0-beta.7"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-markdown/-/eslint-plugin-markdown-1.0.0-beta.7.tgz#12e73a4127c4a4b79d966f9f475851dd0f78f7e7"
   dependencies:
     object-assign "^4.0.1"
     remark-parse "^3.0.0"
@@ -1325,7 +1325,7 @@ eslint-visitor-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
 
-eslint@^4.14.0:
+eslint@4.14.0:
   version "4.14.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-4.14.0.tgz#96609768d1dd23304faba2d94b7fefe5a5447a82"
   dependencies:
@@ -2032,7 +2032,7 @@ http-signature@~1.2.0:
     jsprim "^1.2.2"
     sshpk "^1.7.0"
 
-husky@^0.14.3:
+husky@0.14.3:
   version "0.14.3"
   resolved "https://registry.yarnpkg.com/husky/-/husky-0.14.3.tgz#c69ed74e2d2779769a17ba8399b54ce0b63c12c3"
   dependencies:
@@ -2710,7 +2710,7 @@ jest-worker@^22.0.3:
   dependencies:
     merge-stream "^1.0.1"
 
-jest@^22.0.4:
+jest@22.0.4:
   version "22.0.4"
   resolved "https://registry.yarnpkg.com/jest/-/jest-22.0.4.tgz#d3cf560ece6b825b115dce80b9826ceb40f87961"
   dependencies:
@@ -2843,7 +2843,7 @@ left-pad@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/left-pad/-/left-pad-1.2.0.tgz#d30a73c6b8201d8f7d8e7956ba9616087a68e0ee"
 
-lerna@2.5.1, lerna@^2.5.1:
+lerna@2.5.1:
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/lerna/-/lerna-2.5.1.tgz#d07099bd3051ee799f98c753328bd69e96c6fab8"
   dependencies:
@@ -2901,7 +2901,7 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-lint-staged@^6.0.0:
+lint-staged@6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-6.0.0.tgz#7ab7d345f2fe302ff196f1de6a005594ace03210"
   dependencies:
@@ -3687,7 +3687,7 @@ preserve@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
 
-prettier@^1.9.2:
+prettier@1.9.2:
   version "1.9.2"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.9.2.tgz#96bc2132f7a32338e6078aeb29727178c6335827"
 
@@ -3887,7 +3887,7 @@ rehype-stringify@^3.0.0:
     hast-util-to-html "^3.0.0"
     xtend "^4.0.1"
 
-rehype@*:
+rehype@5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/rehype/-/rehype-5.0.1.tgz#75c9d711fb26a303bd3ab213f93b74f746d5f388"
   dependencies:
@@ -3895,7 +3895,7 @@ rehype@*:
     rehype-stringify "^3.0.0"
     unified "^6.0.0"
 
-remark-cli@^4.0.0:
+remark-cli@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/remark-cli/-/remark-cli-4.0.0.tgz#bb84c14ffeb6f5b658eff4dfbb77cdd7775bab73"
   dependencies:
@@ -4198,7 +4198,7 @@ remark-parse@^4.0.0:
     vfile-location "^2.0.0"
     xtend "^4.0.1"
 
-remark-preset-lint-consistent@^2.0.1:
+remark-preset-lint-consistent@2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/remark-preset-lint-consistent/-/remark-preset-lint-consistent-2.0.1.tgz#02f03205bb0dc37fb1ba9034827a68fb5cb799dc"
   dependencies:
@@ -4216,7 +4216,7 @@ remark-preset-lint-consistent@^2.0.1:
     remark-lint-strong-marker "^1.0.0"
     remark-lint-table-cell-padding "^1.0.0"
 
-remark-preset-lint-recommended@^3.0.1:
+remark-preset-lint-recommended@3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/remark-preset-lint-recommended/-/remark-preset-lint-recommended-3.0.1.tgz#75486577873e20f514cf66e399fcc0d872971049"
   dependencies:
@@ -4264,7 +4264,7 @@ remark-stringify@^4.0.0:
     unherit "^1.0.4"
     xtend "^4.0.1"
 
-remark-validate-links@^7.0.0:
+remark-validate-links@7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/remark-validate-links/-/remark-validate-links-7.0.0.tgz#31de803ac4682ea923b68a82560810981853d110"
   dependencies:
