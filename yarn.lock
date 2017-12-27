@@ -3887,9 +3887,9 @@ rehype-stringify@^3.0.0:
     hast-util-to-html "^3.0.0"
     xtend "^4.0.1"
 
-rehype@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/rehype/-/rehype-5.0.0.tgz#d04ec5e5b03b9ee8181c9681ac4c45822303adfb"
+rehype@*:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/rehype/-/rehype-5.0.1.tgz#75c9d711fb26a303bd3ab213f93b74f746d5f388"
   dependencies:
     rehype-parse "^4.0.0"
     rehype-stringify "^3.0.0"
@@ -5143,7 +5143,7 @@ vfile-message@^1.0.0:
   dependencies:
     unist-util-stringify-position "^1.1.1"
 
-vfile-reporter@4.0.0, vfile-reporter@^4.0.0:
+vfile-reporter@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/vfile-reporter/-/vfile-reporter-4.0.0.tgz#ea6f0ae1342f4841573985e05f941736f27de9da"
   dependencies:

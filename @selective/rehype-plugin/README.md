@@ -1,22 +1,16 @@
-# Selective lint
-
-> Creates a rehype plugin from JSON rules to check for HTML anti patterns and reports issues back as vfile messages
+# Selective Command Line Interface
 
 ## Installation
 
 ```shell
 # npm
-npm install @selective/lint
+npm install @selective/rehype
 
 # yarn
-yarn add @selective/lint
+yarn add @selective/rehype
 ```
 
 ## Usage
-
-```javascript
-// TODO
-```
 
 ## References
 

@@ -1,8 +1,8 @@
 {
-  "name": "@selective/cli",
+  "name": "@selective/rehype",
   "version": "0.0.0",
-  "description": "Command line interface for selective lint",
-  "main": "index.js",
+  "description": "Rehype plugin to run selective lint",
+  "main": "rehype-plugin.js",
   "repository": "https://github.com/ChristianMurphy/selective.git",
   "author": {
     "name": "Christian Murphy",
@@ -12,8 +12,9 @@
   "license": "MIT",
   "dependencies": {
     "@selective/lint": "0.0.0",
-    "@selective/parse": "0.0.0",
-    "rehype": "5.0.0",
-    "vfile-reporter": "4.0.0"
+    "@selective/parse": "0.0.0"
+  },
+  "devDependencies": {
+    "rehype": "*"
   }
 }
