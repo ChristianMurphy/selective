@@ -1,8 +1,5 @@
 {
   "name": "selective",
-  "version": "0.0.0",
-  "description": "use CSS selectors to find anti-patterns in HTML",
-  "repository": "https://github.com/ChristianMurphy/selective.git",
   "private": true,
   "license": "MIT",
   "author": {
