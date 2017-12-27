@@ -2,7 +2,7 @@
   "name": "@selective/rehype",
   "version": "0.0.1",
   "description": "Rehype plugin to run selective lint",
-  "main": "rehype-plugin.js",
+  "main": "rehype.js",
   "repository": "https://github.com/ChristianMurphy/selective.git",
   "author": {
     "name": "Christian Murphy",
