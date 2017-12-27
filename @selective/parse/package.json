@@ -1,6 +1,6 @@
 {
   "name": "@selective/parse",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Parse selective configuration files into JSON",
   "main": "parse.js",
   "repository": "https://github.com/ChristianMurphy/selective.git",
