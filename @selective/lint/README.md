@@ -1,6 +1,6 @@
 # Selective lint
 
-> Creates a rehype plugin from JSON rules to check for HTML anti patterns and reports issues back as vfile messages
+> Creates a [Rehype][] plugin from JSON rules to check for HTML anti patterns and reports issues back as [vFile][] messages
 
 ## Installation
 
@@ -15,11 +15,26 @@ yarn add @selective/lint
 ## Usage
 
 ```javascript
-// TODO
+rehype()
+  .use(rehypePlugin, [
+    {
+      name: "test-name",
+      description: "test description",
+      recommended: "warn",
+      selector: ".test"
+    }
+  ])
+  .process(readFileSync("somefile.html"), err => {
+    console.error(err);
+  });
 ```
 
 ## References
 
-* [Rehype](https://github.com/rehypejs/rehype)
-* [Unified Plugin API](https://unifiedjs.github.io/create-a-plugin.html)
-* [vFile](https://github.com/vfile/vfile)
+* [Rehype][]
+* [Unified Plugin API][]
+* [vFile][]
+
+[rehype]: https://github.com/rehypejs/rehype
+[unified plugin api]: https://unifiedjs.github.io/create-a-plugin.html
+[vfile]: https://github.com/vfile/vfile
