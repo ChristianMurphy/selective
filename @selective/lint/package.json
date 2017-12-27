@@ -1,6 +1,6 @@
 {
   "name": "@selective/lint",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Apply selective rules to an HTML string",
   "main": "lint.js",
   "repository": "https://github.com/ChristianMurphy/selective.git",
