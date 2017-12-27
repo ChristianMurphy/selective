@@ -51,13 +51,13 @@ ul > :not(li),
 
 ## Rehype CLI Usage
 
-in _package.json_ through [rehype][].
+in _package.json_ through [rehype](https://github.com/rehypejs/rehype).
 
 ```json
 {
   "devDependencies": {
     "rehype": "^5.0.0",
-    "@selective/rehype": "0.0.1"
+    "@selective/rehype": "0.0.2"
   },
   "rehypeConfig": {
     "plugins": ["@selective/rehype"]
@@ -71,7 +71,7 @@ this can be additionally customized with a custom config file path
 {
   "devDependencies": {
     "rehype": "^5.0.0",
-    "@selective/rehype": "0.0.1"
+    "@selective/rehype": "0.0.2"
   },
   "rehypeConfig": {
     "plugins": [["@selective/rehype", { "config": "custom.selective" }]]
