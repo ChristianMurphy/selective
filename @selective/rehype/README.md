@@ -32,6 +32,7 @@ Instead of the usual style rules, linter rules are used.
   * `error` will stop processing and return an error code
   * `warn` will continue processing, but highlight as important, no error code.
   * `info` will continue processing, no error code.
+  * `off` disabled
 
 ## Example Rules
 
