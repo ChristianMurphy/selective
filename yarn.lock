@@ -1295,9 +1295,9 @@ eslint-config-standard-jsdoc@0.3.2:
   dependencies:
     eslint-plugin-jsdoc ">=1.1.0"
 
-eslint-plugin-jest@21.5.0:
-  version "21.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-21.5.0.tgz#c7a3bd2ee9d1c832b4e31dec89f6ad93e08d4853"
+eslint-plugin-jest@21.6.0:
+  version "21.6.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-21.6.0.tgz#3c070f351ae06f37993028592e8fa2c57673f95a"
 
 eslint-plugin-jsdoc@3.3.1, eslint-plugin-jsdoc@>=1.1.0:
   version "3.3.1"
