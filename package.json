@@ -24,7 +24,7 @@
     "@commitlint/cli": "6.0.1",
     "@commitlint/config-conventional": "5.2.3",
     "@commitlint/config-lerna-scopes": "6.0.0",
-    "@commitlint/prompt-cli": "5.2.8",
+    "@commitlint/prompt-cli": "6.0.1",
     "@commitlint/travis-cli": "5.2.8",
     "eslint": "4.15.0",
     "eslint-config-standard-jsdoc": "0.3.2",
