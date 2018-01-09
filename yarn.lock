@@ -26,9 +26,9 @@
   version "5.2.3"
   resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-5.2.3.tgz#63671b32b65cb68e7b238405403194b558ff559a"
 
-"@commitlint/config-lerna-scopes@5.2.7":
-  version "5.2.7"
-  resolved "https://registry.yarnpkg.com/@commitlint/config-lerna-scopes/-/config-lerna-scopes-5.2.7.tgz#2e23e3c5504c1d0930a9b2385607bbbf7fb527fc"
+"@commitlint/config-lerna-scopes@6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-lerna-scopes/-/config-lerna-scopes-6.0.0.tgz#fac0d1774bfab8067afb894be075d9bef3346a47"
   dependencies:
     import-from "2.1.0"
     lerna "2.5.1"
