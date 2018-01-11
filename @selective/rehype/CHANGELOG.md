@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.0"></a>
+
+# [0.1.0](https://github.com/ChristianMurphy/selective/compare/v0.0.2...v0.1.0) (2018-01-11)
+
+### Bug Fixes
+
+* **rehype:** correctly set default linter config option ([e44f47e](https://github.com/ChristianMurphy/selective/commit/e44f47e))
+
+### Features
+
+* add keywords to npm package metadata ([1248bf4](https://github.com/ChristianMurphy/selective/commit/1248bf4))
+
 <a name="0.0.2"></a>
 
 ## [0.0.2](https://github.com/ChristianMurphy/selective/compare/v0.0.1...v0.0.2) (2017-12-27)

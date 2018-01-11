@@ -1,6 +1,6 @@
 {
   "name": "@selective/rehype",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Rehype plugin to run selective lint",
   "keywords": ["lint", "linter", "html", "selector", "rehype"],
   "main": "rehype.js",
@@ -15,8 +15,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@selective/lint": "0.0.2",
-    "@selective/parse": "0.0.2"
+    "@selective/lint": "0.1.0",
+    "@selective/parse": "0.1.0"
   },
   "devDependencies": {
     "rehype": "5.0.1"
