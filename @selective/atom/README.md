@@ -57,5 +57,5 @@ ul > :not(li),
 ## References
 
 * [Atom Linter](https://atom.io/packages/linter)
-* [Rehype][https://github.com/rehypejs/rehype]
-* [CSS Selectors][https://developer.mozilla.org/en-us/docs/web/css/css_selectors]
+* [Rehype](https://github.com/rehypejs/rehype)
+* [CSS Selectors](https://developer.mozilla.org/en-us/docs/web/css/css_selectors)
