@@ -2,8 +2,8 @@ language: node_js
 
 node_js:
   - '7' # version of Node.js currently powering electron
-  - '8'
-  - 'node'
+  - '8' # current lts
+  - '9' # latest
 
 before_script:
   - yarn global add lerna
