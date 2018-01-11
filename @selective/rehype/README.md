@@ -67,7 +67,7 @@ in _package.json_ through [rehype][].
 {
   "devDependencies": {
     "rehype": "^5.0.0",
-    "@selective/rehype": "0.0.2"
+    "@selective/rehype": "0.0.3"
   },
   "rehype": {
     "plugins": ["@selective/rehype"]
@@ -81,7 +81,7 @@ this can be additionally customized with a custom config file path
 {
   "devDependencies": {
     "rehype": "^5.0.0",
-    "@selective/rehype": "0.0.2"
+    "@selective/rehype": "0.0.3"
   },
   "rehype": {
     "plugins": [["@selective/rehype", { "config": "custom.selective" }]]

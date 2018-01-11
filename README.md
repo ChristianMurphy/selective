@@ -3,7 +3,7 @@
 [![NPM Version](https://img.shields.io/npm/v/@selective/rehype.svg)](https://www.npmjs.com/package/@selective/rehype)
 [![Build Status](https://travis-ci.org/ChristianMurphy/selective.svg?branch=master)](https://travis-ci.org/ChristianMurphy/selective)
 
-> Use CSS selectors to find HTML and JSX anti-patterns
+> Use CSS selectors to find HTML anti-patterns
 
 ## Creating Rules
 
@@ -49,6 +49,14 @@ ul > :not(li),
 }
 ```
 
+## Atom Usage
+
+```bash
+apm install linter-selective
+```
+
+![selective lint example](@selective/atom/docs/selective-lint-example.gif)
+
 ## Rehype CLI Usage
 
 in _package.json_ through [rehype](https://github.com/rehypejs/rehype).
@@ -57,7 +65,7 @@ in _package.json_ through [rehype](https://github.com/rehypejs/rehype).
 {
   "devDependencies": {
     "rehype": "^5.0.0",
-    "@selective/rehype": "0.0.2"
+    "@selective/rehype": "0.0.3"
   },
   "rehype": {
     "plugins": ["@selective/rehype"]
@@ -71,7 +79,7 @@ this can be additionally customized with a custom config file path
 {
   "devDependencies": {
     "rehype": "^5.0.0",
-    "@selective/rehype": "0.0.2"
+    "@selective/rehype": "0.0.3"
   },
   "rehype": {
     "plugins": [["@selective/rehype", { "config": "custom.selective" }]]
