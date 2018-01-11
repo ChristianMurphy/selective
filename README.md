@@ -56,7 +56,7 @@ ul > :not(li),
 apm install linter-selective
 ```
 
-![selective lint example](@selective/atom/docs/selective-lint-example.gif)
+![selective lint example](docs/selective-lint-example.gif)
 
 ## Rehype CLI Usage
 
