@@ -58,6 +58,8 @@ apm install linter-selective
 
 ![selective lint example](docs/selective-lint-example.gif)
 
+[linter-selective](https://github.com/ChristianMurphy/linter-selective)
+
 ## Rehype CLI Usage
 
 in _package.json_ through [rehype](https://github.com/rehypejs/rehype).
