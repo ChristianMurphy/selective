@@ -1,0 +1,20 @@
+environment:
+  matrix:
+    - nodejs_version: "7" # node version atom is running
+    - nodejs_version: "8" # current lts
+    - nodejs_version: "9" # latest
+
+install:
+  - ps: Install-Product node $env:nodejs_version
+  - npm install --global yarn lerna
+  - node --version
+  - yarn --version
+  - lerna --version
+  - lerna bootstrap
+
+test_script:
+  - yarn test
+  - yarn lint-javascript
+  - yarn lint-markdown
+
+build: off
