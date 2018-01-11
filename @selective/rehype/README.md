@@ -69,7 +69,7 @@ in _package.json_ through [rehype][].
     "rehype": "^5.0.0",
     "@selective/rehype": "0.0.2"
   },
-  "rehypeConfig": {
+  "rehype": {
     "plugins": ["@selective/rehype"]
   }
 }

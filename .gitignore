@@ -125,3 +125,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/node,linux,macos,windows
+
+# yarn.lock should be the only lock
+package-lock.json
