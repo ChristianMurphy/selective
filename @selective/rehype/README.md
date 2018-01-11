@@ -1,7 +1,8 @@
 # Selective Rehype Plugin
 
 [![NPM Version](https://img.shields.io/npm/v/@selective/rehype.svg)](https://www.npmjs.com/package/@selective/rehype)
-[![Build Status](https://travis-ci.org/ChristianMurphy/selective.svg?branch=master)](https://travis-ci.org/ChristianMurphy/selective)
+[![Linux Build Status](https://travis-ci.org/ChristianMurphy/selective.svg?branch=master)](https://travis-ci.org/ChristianMurphy/selective)
+[![Windows Build status](https://ci.appveyor.com/api/projects/status/5vcbepc478hkyt2f/branch/master?svg=true)](https://ci.appveyor.com/project/ChristianMurphy/selective/branch/master)
 
 > Use [CSS Selectors][] to describe anti-patterns in HTML
 
