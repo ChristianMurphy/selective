@@ -73,7 +73,7 @@ this can be additionally customized with a custom config file path
     "rehype": "^5.0.0",
     "@selective/rehype": "0.0.2"
   },
-  "rehypeConfig": {
+  "rehype": {
     "plugins": [["@selective/rehype", { "config": "custom.selective" }]]
   }
 }

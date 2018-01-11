@@ -4,7 +4,7 @@ const { readFileSync } = require("fs");
 const { resolve } = require("path");
 
 module.exports = (
-  { config = "selective.config" } = { selective: "selective.config" }
+  { config = "selective.config" } = { config: "selective.config" }
 ) => {
   const configFile = readFileSync(resolve(process.cwd(), config));
   const rules = parse(configFile);

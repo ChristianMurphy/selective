@@ -8,7 +8,7 @@
     "url": "https://github.com/ChristianMurphy"
   },
   "scripts": {
-    "format": "prettier --write *.{js,json,md}",
+    "format": "prettier --write **/*.{js,json,md}",
     "precommit": "lint-staged",
     "commit": "commit",
     "lint": "yarn lint-javascript && yarn lint-markdown && yarn lint-commit",
@@ -56,7 +56,8 @@
     "plugins": ["jest", "jsdoc", "markdown"],
     "env": {
       "jest/globals": true,
-      "node": true
+      "node": true,
+      "es6": true
     },
     "parserOptions": {
       "ecmaVersion": 2017
