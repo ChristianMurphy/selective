@@ -4,6 +4,7 @@
   "description": "Apply selective rules to an HTML string",
   "keywords": ["lint", "linter", "html", "selector", "rehype"],
   "main": "lint.js",
+  "files": ["lint.js"],
   "repository": "https://github.com/ChristianMurphy/selective.git",
   "author": {
     "name": "Christian Murphy",

@@ -4,6 +4,7 @@
   "description": "Rehype plugin to run selective lint",
   "keywords": ["lint", "linter", "html", "selector", "rehype"],
   "main": "rehype.js",
+  "files": ["rehype.js"],
   "repository": "https://github.com/ChristianMurphy/selective.git",
   "author": {
     "name": "Christian Murphy",
