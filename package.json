@@ -21,7 +21,7 @@
     "coverage": "jest --coverage"
   },
   "devDependencies": {
-    "@commitlint/cli": "6.0.1",
+    "@commitlint/cli": "6.0.2",
     "@commitlint/config-conventional": "5.2.3",
     "@commitlint/config-lerna-scopes": "6.0.0",
     "@commitlint/prompt-cli": "6.0.1",
