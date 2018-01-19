@@ -2934,9 +2934,9 @@ lerna@2.5.1:
     write-pkg "^3.1.0"
     yargs "^8.0.2"
 
-lerna@2.7.1:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/lerna/-/lerna-2.7.1.tgz#abd536376eca5e9f41a6d611da5b744534ef906f"
+lerna@2.7.2:
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/lerna/-/lerna-2.7.2.tgz#868a38b37e9d6d5f5a156906296272693777205d"
   dependencies:
     async "^1.5.0"
     chalk "^2.1.0"
