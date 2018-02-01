@@ -153,19 +153,19 @@
     conventional-changelog-angular "^1.3.3"
     conventional-commits-parser "^2.1.0"
 
-"@commitlint/prompt-cli@6.0.2":
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@commitlint/prompt-cli/-/prompt-cli-6.0.2.tgz#2a5337cf004379dba2713cba7af249d4da502a5c"
+"@commitlint/prompt-cli@6.0.5":
+  version "6.0.5"
+  resolved "https://registry.yarnpkg.com/@commitlint/prompt-cli/-/prompt-cli-6.0.5.tgz#99db53511236a6cff6b116a85aab16b02c367203"
   dependencies:
-    "@commitlint/prompt" "^6.0.2"
+    "@commitlint/prompt" "^6.0.5"
     execa "0.9.0"
     meow "3.7.0"
 
-"@commitlint/prompt@^6.0.2":
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@commitlint/prompt/-/prompt-6.0.2.tgz#28d2ae37aa995b06637f5f5b623c30d261326d44"
+"@commitlint/prompt@^6.0.5":
+  version "6.0.5"
+  resolved "https://registry.yarnpkg.com/@commitlint/prompt/-/prompt-6.0.5.tgz#c9530259e0cf1c80fecb1ae4a3cd32e2a47217a0"
   dependencies:
-    "@commitlint/core" "^6.0.2"
+    "@commitlint/core" "^6.0.5"
     babel-runtime "^6.23.0"
     chalk "^2.0.0"
     lodash.camelcase "4.3.0"
