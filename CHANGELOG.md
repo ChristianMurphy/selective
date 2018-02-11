@@ -4,23 +4,19 @@ All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 <a name="0.2.0"></a>
-# [0.2.0](https://github.com/ChristianMurphy/selective/compare/v0.1.2...v0.2.0) (2018-02-11)
 
+# [0.2.0](https://github.com/ChristianMurphy/selective/compare/v0.1.2...v0.2.0) (2018-02-11)
 
 ### Bug Fixes
 
 * correct usage of updated plugin API ([e7c51b3](https://github.com/ChristianMurphy/selective/commit/e7c51b3))
 * update dependency postcss to v6.0.17 ([31c91ed](https://github.com/ChristianMurphy/selective/commit/31c91ed))
 
-
 ### Features
 
 * add html comment marker parser ([da5f17e](https://github.com/ChristianMurphy/selective/commit/da5f17e))
 * add unified message control to manage unified lint rule ([dd0c108](https://github.com/ChristianMurphy/selective/commit/dd0c108))
 * move atom module back into core ([fc4ff8e](https://github.com/ChristianMurphy/selective/commit/fc4ff8e))
-
-
-
 
 <a name="0.1.2"></a>
 
