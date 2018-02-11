@@ -1,10 +1,10 @@
 {
-  "name": "@selective/lint",
+  "name": "@selective/marker",
   "version": "0.1.2",
-  "description": "Apply selective rules to an HTML string",
+  "description": "Rehype plugin to run selective lint",
   "keywords": ["lint", "linter", "html", "selector", "rehype"],
-  "main": "lint.js",
-  "files": ["lint.js"],
+  "main": "marker.js",
+  "files": ["marker.js"],
   "repository": "https://github.com/ChristianMurphy/selective.git",
   "author": {
     "name": "Christian Murphy",
@@ -15,8 +15,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
-    "hast-util-select": "1.0.1",
-    "unified-lint-rule": "^1.0.2"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }

@@ -374,6 +374,20 @@ asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
 
+atom-package-deps@4.6.1:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/atom-package-deps/-/atom-package-deps-4.6.1.tgz#36559e70db25d077b005f0278c8e17a679686adb"
+  dependencies:
+    atom-package-path "^1.1.0"
+    sb-fs "^3.0.0"
+    semver "^5.3.0"
+
+atom-package-path@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/atom-package-path/-/atom-package-path-1.1.0.tgz#b51fedbc00e7c8ce5223d0d803db7a3f4f69614f"
+  dependencies:
+    sb-callsite "^1.1.2"
+
 aws-sign2@~0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/aws-sign2/-/aws-sign2-0.6.0.tgz#14342dd38dbcc94d0e5b87d763cd63612c0e794f"
@@ -1581,6 +1595,10 @@ find-parent-dir@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/find-parent-dir/-/find-parent-dir-0.3.0.tgz#33c44b429ab2b2f0646299c5f9f718f376ff8d54"
 
+find-root@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/find-root/-/find-root-1.1.0.tgz#abcfc8ba76f708c42a97b3d685b7e9450bfb9ce4"
+
 find-up@^1.0.0:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/find-up/-/find-up-1.1.2.tgz#6b2e9822b1a2ce0a60ab64d610eccad53cb24d0f"
@@ -2397,7 +2415,7 @@ is-typedarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/is-typedarray/-/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
 
-is-utf8@^0.2.0:
+is-utf8@^0.2.0, is-utf8@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/is-utf8/-/is-utf8-0.2.1.tgz#4b0da1442104d1b336340e80797e865cf39f7d72"
 
@@ -4618,6 +4636,21 @@ sax@^1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
 
+sb-callsite@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/sb-callsite/-/sb-callsite-1.1.2.tgz#28191fb66d64e3a3ee92084a95a90fcb5102243b"
+
+sb-fs@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/sb-fs/-/sb-fs-3.0.0.tgz#fbdcdd3010e80a1b8e27490cef336064974203b8"
+  dependencies:
+    sb-promisify "^2.0.1"
+    strip-bom-buf "^1.0.0"
+
+sb-promisify@^2.0.1:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/sb-promisify/-/sb-promisify-2.0.2.tgz#4277a54754488aa9675d886e354db894c9bdc981"
+
 "semver@2 || 3 || 4 || 5", semver@5.5.0, semver@^5.0.1, semver@^5.1.0, semver@^5.3.0, semver@^5.4.1:
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.5.0.tgz#dc4bbc7a6ca9d916dee5d43516f0092b58f7b8ab"
@@ -4846,6 +4879,12 @@ strip-ansi@^4.0.0:
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-4.0.0.tgz#a8479022eb1ac368a871389b635262c505ee368f"
   dependencies:
     ansi-regex "^3.0.0"
+
+strip-bom-buf@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/strip-bom-buf/-/strip-bom-buf-1.0.0.tgz#1cb45aaf57530f4caf86c7f75179d2c9a51dd572"
+  dependencies:
+    is-utf8 "^0.2.1"
 
 strip-bom@3.0.0, strip-bom@^3.0.0:
   version "3.0.0"
@@ -5127,6 +5166,40 @@ unified-args@^5.0.0:
     text-table "^0.2.0"
     unified-engine "^5.1.0"
 
+unified-engine-atom@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/unified-engine-atom/-/unified-engine-atom-5.0.0.tgz#82bf8b17bfc2ff689a4c41af10c271568ee55631"
+  dependencies:
+    find-root "^1.0.0"
+    to-vfile "^2.0.0"
+    unified-engine "^3.0.2"
+    xtend "^4.0.1"
+
+unified-engine@^3.0.2:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/unified-engine/-/unified-engine-3.1.1.tgz#792541826df4e97b640ccdd90eca621356e4c9e7"
+  dependencies:
+    concat-stream "^1.5.1"
+    debug "^2.2.0"
+    fault "^1.0.0"
+    fn-name "^2.0.1"
+    glob "^7.0.3"
+    has "^1.0.1"
+    ignore "^3.2.0"
+    is-empty "^1.0.0"
+    is-hidden "^1.0.1"
+    is-object "^1.0.1"
+    js-yaml "^3.6.1"
+    load-plugin "^2.0.0"
+    parse-json "^2.2.0"
+    to-vfile "^2.0.0"
+    trough "^1.0.0"
+    vfile-reporter "^3.0.0"
+    vfile-statistics "^1.0.0"
+    x-is-function "^1.0.4"
+    x-is-string "^0.1.0"
+    xtend "^4.0.1"
+
 unified-engine@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/unified-engine/-/unified-engine-5.1.0.tgz#30db83bcc76c821f773bb5a8a491aa0e2471e3d1"
@@ -5152,13 +5225,13 @@ unified-engine@^5.1.0:
     x-is-string "^0.1.0"
     xtend "^4.0.1"
 
-unified-lint-rule@^1.0.0:
+unified-lint-rule@^1.0.0, unified-lint-rule@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/unified-lint-rule/-/unified-lint-rule-1.0.2.tgz#419270d7de71436938cbcb34d8683f56a14d74b7"
   dependencies:
     wrapped "^1.0.1"
 
-unified-message-control@^1.0.0:
+unified-message-control@^1.0.0, unified-message-control@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/unified-message-control/-/unified-message-control-1.0.3.tgz#fbe4372a933a95ad71820a9a0da155956d3d42d5"
   dependencies:
@@ -5288,6 +5361,16 @@ vfile-message@^1.0.0:
   dependencies:
     unist-util-stringify-position "^1.1.1"
 
+vfile-reporter@^3.0.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/vfile-reporter/-/vfile-reporter-3.1.0.tgz#a9b398c5e6dcbc8a9a08e6cf425f092e86a37000"
+  dependencies:
+    repeat-string "^1.5.0"
+    string-width "^1.0.0"
+    supports-color "^4.1.0"
+    unist-util-stringify-position "^1.0.0"
+    vfile-statistics "^1.0.0"
+
 vfile-reporter@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/vfile-reporter/-/vfile-reporter-4.0.0.tgz#ea6f0ae1342f4841573985e05f941736f27de9da"
@@ -5298,7 +5381,7 @@ vfile-reporter@^4.0.0:
     unist-util-stringify-position "^1.0.0"
     vfile-statistics "^1.1.0"
 
-vfile-statistics@^1.1.0:
+vfile-statistics@^1.0.0, vfile-statistics@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/vfile-statistics/-/vfile-statistics-1.1.0.tgz#02104c60fdeed1d11b1f73ad65330b7634b3d895"
 
