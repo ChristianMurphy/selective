@@ -7,6 +7,7 @@ test("should find issues", () => {
   rehype()
     .use(rehypePlugin({ config: "@selective/rehype/example/lax.selective" }))
     .process(readFileSync(resolve(__dirname, "example", "bad.html")), err => {
+      console.log(err);
       expect(err).toBeDefined();
     });
 });
