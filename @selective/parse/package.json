@@ -1,10 +1,18 @@
 {
   "name": "@selective/parse",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Parse selective configuration files into JSON",
-  "keywords": ["lint", "linter", "html", "selector", "rehype"],
+  "keywords": [
+    "lint",
+    "linter",
+    "html",
+    "selector",
+    "rehype"
+  ],
   "main": "parse.js",
-  "files": ["parse.js"],
+  "files": [
+    "parse.js"
+  ],
   "repository": "https://github.com/ChristianMurphy/selective.git",
   "author": {
     "name": "Christian Murphy",
