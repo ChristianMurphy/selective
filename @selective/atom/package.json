@@ -1,16 +1,22 @@
 {
   "name": "@selective/atom",
   "main": "./atom.js",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Atom bindings for selective",
-  "keywords": ["lint", "linter", "html", "selector", "rehype"],
+  "keywords": [
+    "lint",
+    "linter",
+    "html",
+    "selector",
+    "rehype"
+  ],
   "repository": "https://github.com/ChristianMurphy/selective",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@selective/rehype": "0.2.0",
+    "@selective/rehype": "0.2.1",
     "atom-package-deps": "4.6.1",
     "rehype": "5.0.1",
     "unified-engine-atom": "5.0.0"
