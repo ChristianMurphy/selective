@@ -10,7 +10,7 @@ module.exports.provideLinter = function() {
     lintsOnChange: true,
     lint: engine({
       processor: rehype,
-      plugins: [selective()]
+      plugins: selective()
     })
   };
 };

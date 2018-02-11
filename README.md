@@ -100,9 +100,11 @@ const selectiveRehype = require("@selective/rehype");
 const { readFileSync } = require("fs");
 
 rehype()
-  .use(selectiveRehype, {
-    config: "config.selective"
-  })
+  .use(
+    selectiveRehype({
+      config: "config.selective"
+    })
+  )
   .process(readFileSync("somefile.html"), err => {
     console.error(err);
   });
