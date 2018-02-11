@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.2.3"></a>
+## [0.2.3](https://github.com/ChristianMurphy/selective/compare/v0.2.2...v0.2.3) (2018-02-11)
+
+
+### Bug Fixes
+
+* **atom:** wrap linter in IIFE to ensure to picks up project and config ([7e5c3d5](https://github.com/ChristianMurphy/selective/commit/7e5c3d5))
+
+
+
+
 <a name="0.2.2"></a>
 ## [0.2.2](https://github.com/ChristianMurphy/selective/compare/v0.2.1...v0.2.2) (2018-02-11)
 
