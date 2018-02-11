@@ -4,7 +4,7 @@ const selective = require("@selective/rehype");
 const { resolve } = require("path");
 
 module.exports.provideLinter = function() {
-  const projectPath = atom.projects.getPaths()[0];
+  const projectPath = atom.project.getPaths()[0];
   const configuration = {
     config: resolve(projectPath, "config.selective")
   };
