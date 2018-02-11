@@ -17,7 +17,9 @@
   },
   "dependencies": {
     "@selective/lint": "0.1.2",
-    "@selective/parse": "0.1.2"
+    "@selective/marker": "0.1.2",
+    "@selective/parse": "0.1.2",
+    "unified-message-control": "^1.0.3"
   },
   "devDependencies": {
     "rehype": "5.0.1"
