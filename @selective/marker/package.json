@@ -1,0 +1,20 @@
+{
+  "name": "@selective/marker",
+  "version": "0.1.2",
+  "description": "Rehype plugin to run selective lint",
+  "keywords": ["lint", "linter", "html", "selector", "rehype"],
+  "main": "marker.js",
+  "files": ["marker.js"],
+  "repository": "https://github.com/ChristianMurphy/selective.git",
+  "author": {
+    "name": "Christian Murphy",
+    "email": "Christian.Murphy.42@gmail.com",
+    "url": "https://github.com/ChristianMurphy"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
