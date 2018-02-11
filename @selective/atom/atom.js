@@ -3,20 +3,22 @@ const rehype = require("rehype");
 const selective = require("@selective/rehype");
 const { resolve } = require("path");
 
-module.exports.provideLinter = function() {
-  const projectPath = atom.project.getPaths()[0];
-  const configuration = {
-    config: resolve(projectPath, "config.selective")
-  };
+module.exports.provideLinter = () => {
   return {
     grammarScopes: ["text.html", "text.html.basic"],
     name: "selective",
     scope: "file",
     lintsOnChange: true,
-    lint: engine({
-      processor: rehype,
-      plugins: selective(configuration)
-    })
+    lint: editor => {
+      const projectPath = atom.project.getPaths()[0];
+      const configuration = {
+        config: resolve(projectPath, "config.selective")
+      };
+      return engine({
+        processor: rehype,
+        plugins: selective(configuration)
+      })(editor);
+    }
   };
 };
 
