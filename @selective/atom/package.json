@@ -11,5 +11,10 @@
     "atom-package-deps": "4.6.1",
     "rehype": "5.0.1",
     "unified-engine-atom": "5.0.0"
+  },
+  "eslintConfig": {
+    "globals": {
+      "atom": true
+    }
   }
 }
