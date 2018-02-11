@@ -18,6 +18,8 @@ yarn add @selective/marker
 
 ## Usage
 
+<!-- eslint-disable no-console -->
+
 ```javascript
 const marker = require("@selective/marker");
 
