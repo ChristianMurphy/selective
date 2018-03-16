@@ -422,9 +422,9 @@ atob@^2.0.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.0.3.tgz#19c7a760473774468f20b2d2d03372ad7d4cbf5d"
 
-atom-package-deps@4.6.1:
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/atom-package-deps/-/atom-package-deps-4.6.1.tgz#36559e70db25d077b005f0278c8e17a679686adb"
+atom-package-deps@4.6.2:
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/atom-package-deps/-/atom-package-deps-4.6.2.tgz#9976ecd6d137bf8c8b24859edf319c2dd0e76b4d"
   dependencies:
     atom-package-path "^1.1.0"
     sb-fs "^3.0.0"
