@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.2.5"></a>
+## [0.2.5](https://github.com/ChristianMurphy/selective/compare/v0.2.4...v0.2.5) (2018-03-20)
+
+
+### Bug Fixes
+
+* update dependency atom-package-deps to v4.6.2 ([1cf8f4d](https://github.com/ChristianMurphy/selective/commit/1cf8f4d))
+
+
+
+
 <a name="0.2.4"></a>
 ## [0.2.4](https://github.com/ChristianMurphy/selective/compare/v0.2.3...v0.2.4) (2018-02-27)
 
