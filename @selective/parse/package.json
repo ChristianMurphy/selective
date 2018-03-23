@@ -1,6 +1,6 @@
 {
   "name": "@selective/parse",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Parse selective configuration files into JSON",
   "keywords": [
     "lint",

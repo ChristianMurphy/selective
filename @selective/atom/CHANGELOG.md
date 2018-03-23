@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.2.6"></a>
+## [0.2.6](https://github.com/ChristianMurphy/selective/compare/v0.2.5...v0.2.6) (2018-03-23)
+
+
+
+
+**Note:** Version bump only for package @selective/atom
+
 <a name="0.2.5"></a>
 ## [0.2.5](https://github.com/ChristianMurphy/selective/compare/v0.2.4...v0.2.5) (2018-03-20)
 
