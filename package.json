@@ -34,7 +34,7 @@
     "husky": "0.14.3",
     "jest": "22.4.3",
     "lerna": "2.9.1",
-    "lint-staged": "7.0.2",
+    "lint-staged": "7.0.3",
     "prettier": "1.11.1",
     "remark-cli": "5.0.0",
     "remark-preset-lint-consistent": "2.0.1",
