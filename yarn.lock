@@ -1502,7 +1502,15 @@ eslint-plugin-jest@21.15.0:
   version "21.15.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-21.15.0.tgz#645a3f560d3e61d99611b215adc80b4f31e6d896"
 
-eslint-plugin-jsdoc@3.5.0, eslint-plugin-jsdoc@>=1.1.0:
+eslint-plugin-jsdoc@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-3.6.0.tgz#0db605726aba8232c53ab639bde19b8f1285529d"
+  dependencies:
+    comment-parser "^0.4.2"
+    jsdoctypeparser "^2.0.0-alpha-8"
+    lodash "^4.17.4"
+
+eslint-plugin-jsdoc@>=1.1.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-3.5.0.tgz#cb1bbb941c499fac16c699a5856a332b517897de"
   dependencies:
@@ -3133,6 +3141,10 @@ js-yaml@^3.6.1, js-yaml@^3.7.0, js-yaml@^3.9.0, js-yaml@^3.9.1:
 jsbn@~0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
+
+jsdoctypeparser@^2.0.0-alpha-8:
+  version "2.0.0-alpha-8"
+  resolved "https://registry.yarnpkg.com/jsdoctypeparser/-/jsdoctypeparser-2.0.0-alpha-8.tgz#baf137fb8e2a558810adcf19d2d2a2f680e90a5f"
 
 jsdom@^11.5.1:
   version "11.7.0"
