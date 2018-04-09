@@ -30,7 +30,7 @@
     "eslint-config-standard-jsdoc": "0.3.2",
     "eslint-plugin-jest": "21.15.0",
     "eslint-plugin-jsdoc": "3.6.2",
-    "eslint-plugin-markdown": "1.0.0-beta.7",
+    "eslint-plugin-markdown": "1.0.0-beta.8",
     "husky": "0.14.3",
     "jest": "22.4.3",
     "lerna": "2.10.0",

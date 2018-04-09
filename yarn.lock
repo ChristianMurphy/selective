@@ -1517,9 +1517,9 @@ eslint-plugin-jsdoc@>=1.1.0:
     comment-parser "^0.4.2"
     lodash "^4.17.4"
 
-eslint-plugin-markdown@1.0.0-beta.7:
-  version "1.0.0-beta.7"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-markdown/-/eslint-plugin-markdown-1.0.0-beta.7.tgz#12e73a4127c4a4b79d966f9f475851dd0f78f7e7"
+eslint-plugin-markdown@1.0.0-beta.8:
+  version "1.0.0-beta.8"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-markdown/-/eslint-plugin-markdown-1.0.0-beta.8.tgz#8d10707fdc551dc28ed9e14bd03c18f776e2fb76"
   dependencies:
     object-assign "^4.0.1"
     remark-parse "^3.0.0"
