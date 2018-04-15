@@ -1502,9 +1502,9 @@ eslint-plugin-jest@21.15.0:
   version "21.15.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-21.15.0.tgz#645a3f560d3e61d99611b215adc80b4f31e6d896"
 
-eslint-plugin-jsdoc@3.6.2:
-  version "3.6.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-3.6.2.tgz#daab6a2eecd5a63b7fdc2d406e6b33b9307a9b23"
+eslint-plugin-jsdoc@3.6.3:
+  version "3.6.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-3.6.3.tgz#8ac4b962964c2893fb0f58c621904203f07bd462"
   dependencies:
     comment-parser "^0.4.2"
     jsdoctypeparser "^2.0.0-alpha-8"
