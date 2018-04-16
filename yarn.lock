@@ -3145,8 +3145,8 @@ jsdoctypeparser@^2.0.0-alpha-8:
   resolved "https://registry.yarnpkg.com/jsdoctypeparser/-/jsdoctypeparser-2.0.0-alpha-8.tgz#baf137fb8e2a558810adcf19d2d2a2f680e90a5f"
 
 jsdom@^11.5.1:
-  version "11.7.0"
-  resolved "https://registry.yarnpkg.com/jsdom/-/jsdom-11.7.0.tgz#8b45b657dae90d6d2d3a5f5d1126bb7102d0a172"
+  version "11.8.0"
+  resolved "https://registry.yarnpkg.com/jsdom/-/jsdom-11.8.0.tgz#a52e9a7d2b931284f62c80dad5f17d7390499d8b"
   dependencies:
     abab "^1.0.4"
     acorn "^5.3.0"
