@@ -2428,6 +2428,10 @@ is-buffer@^1.1.4, is-buffer@^1.1.5:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
 
+is-buffer@^2.0.0:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-2.0.2.tgz#f83a0c5bc453f6431bf83cc2ceff6cbc9d50a83b"
+
 is-builtin-module@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/is-builtin-module/-/is-builtin-module-1.0.0.tgz#540572d34f7ac3119f8f76c30cbc1b1e037affbe"
@@ -5617,6 +5621,13 @@ to-vfile@^2.0.0:
     vfile "^2.0.0"
     x-is-function "^1.0.4"
 
+to-vfile@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/to-vfile/-/to-vfile-4.0.0.tgz#465ade5fc2b9e97e6c80b854d378a5d0f4b5d04a"
+  dependencies:
+    is-buffer "^2.0.0"
+    vfile "^3.0.0"
+
 tough-cookie@>=2.3.3, tough-cookie@^2.3.3, tough-cookie@~2.3.3:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/tough-cookie/-/tough-cookie-2.3.4.tgz#ec60cee38ac675063ffc97a5c18970578ee83655"
@@ -5709,38 +5720,13 @@ unified-args@^5.0.0:
     text-table "^0.2.0"
     unified-engine "^5.1.0"
 
-unified-engine-atom@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/unified-engine-atom/-/unified-engine-atom-5.0.0.tgz#82bf8b17bfc2ff689a4c41af10c271568ee55631"
+unified-engine-atom@7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/unified-engine-atom/-/unified-engine-atom-7.0.0.tgz#b4cbccfab766d947e758c94c5b5a3b8564f8b92d"
   dependencies:
     find-root "^1.0.0"
-    to-vfile "^2.0.0"
-    unified-engine "^3.0.2"
-    xtend "^4.0.1"
-
-unified-engine@^3.0.2:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/unified-engine/-/unified-engine-3.1.1.tgz#792541826df4e97b640ccdd90eca621356e4c9e7"
-  dependencies:
-    concat-stream "^1.5.1"
-    debug "^2.2.0"
-    fault "^1.0.0"
-    fn-name "^2.0.1"
-    glob "^7.0.3"
-    has "^1.0.1"
-    ignore "^3.2.0"
-    is-empty "^1.0.0"
-    is-hidden "^1.0.1"
-    is-object "^1.0.1"
-    js-yaml "^3.6.1"
-    load-plugin "^2.0.0"
-    parse-json "^2.2.0"
-    to-vfile "^2.0.0"
-    trough "^1.0.0"
-    vfile-reporter "^3.0.0"
-    vfile-statistics "^1.0.0"
-    x-is-function "^1.0.4"
-    x-is-string "^0.1.0"
+    to-vfile "^4.0.0"
+    unified-engine "^6.0.0"
     xtend "^4.0.1"
 
 unified-engine@^5.1.0:
@@ -5765,6 +5751,30 @@ unified-engine@^5.1.0:
     vfile-reporter "^4.0.0"
     vfile-statistics "^1.1.0"
     x-is-function "^1.0.4"
+    x-is-string "^0.1.0"
+    xtend "^4.0.1"
+
+unified-engine@^6.0.0:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/unified-engine/-/unified-engine-6.0.1.tgz#22236f1d253a6d07b6605eca83a2bcce08fc6f05"
+  dependencies:
+    concat-stream "^1.5.1"
+    debug "^3.1.0"
+    fault "^1.0.0"
+    fn-name "^2.0.1"
+    glob "^7.0.3"
+    ignore "^3.2.0"
+    is-empty "^1.0.0"
+    is-hidden "^1.0.1"
+    is-object "^1.0.1"
+    js-yaml "^3.6.1"
+    load-plugin "^2.0.0"
+    parse-json "^4.0.0"
+    to-vfile "^4.0.0"
+    trough "^1.0.0"
+    unist-util-inspect "^4.1.2"
+    vfile-reporter "^5.0.0"
+    vfile-statistics "^1.1.0"
     x-is-string "^0.1.0"
     xtend "^4.0.1"
 
@@ -5930,16 +5940,6 @@ vfile-message@^1.0.0:
   dependencies:
     unist-util-stringify-position "^1.1.1"
 
-vfile-reporter@^3.0.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/vfile-reporter/-/vfile-reporter-3.1.0.tgz#a9b398c5e6dcbc8a9a08e6cf425f092e86a37000"
-  dependencies:
-    repeat-string "^1.5.0"
-    string-width "^1.0.0"
-    supports-color "^4.1.0"
-    unist-util-stringify-position "^1.0.0"
-    vfile-statistics "^1.0.0"
-
 vfile-reporter@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/vfile-reporter/-/vfile-reporter-4.0.0.tgz#ea6f0ae1342f4841573985e05f941736f27de9da"
@@ -5950,7 +5950,17 @@ vfile-reporter@^4.0.0:
     unist-util-stringify-position "^1.0.0"
     vfile-statistics "^1.1.0"
 
-vfile-statistics@^1.0.0, vfile-statistics@^1.1.0:
+vfile-reporter@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/vfile-reporter/-/vfile-reporter-5.0.0.tgz#c2bcb87a6161cbd3b41671c2aa21b8c006f4acce"
+  dependencies:
+    repeat-string "^1.5.0"
+    string-width "^2.0.0"
+    supports-color "^5.4.0"
+    unist-util-stringify-position "^1.0.0"
+    vfile-statistics "^1.1.0"
+
+vfile-statistics@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/vfile-statistics/-/vfile-statistics-1.1.0.tgz#02104c60fdeed1d11b1f73ad65330b7634b3d895"
 
@@ -5959,6 +5969,15 @@ vfile@^2.0.0:
   resolved "https://registry.yarnpkg.com/vfile/-/vfile-2.3.0.tgz#e62d8e72b20e83c324bc6c67278ee272488bf84a"
   dependencies:
     is-buffer "^1.1.4"
+    replace-ext "1.0.0"
+    unist-util-stringify-position "^1.0.0"
+    vfile-message "^1.0.0"
+
+vfile@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/vfile/-/vfile-3.0.0.tgz#e0995335fdafbefe0c3d59a42868d413c0409031"
+  dependencies:
+    is-buffer "^2.0.0"
     replace-ext "1.0.0"
     unist-util-stringify-position "^1.0.0"
     vfile-message "^1.0.0"
