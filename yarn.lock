@@ -5794,9 +5794,9 @@ unified-args@^5.0.0:
     text-table "^0.2.0"
     unified-engine "^5.1.0"
 
-unified-engine-atom@7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/unified-engine-atom/-/unified-engine-atom-7.0.0.tgz#b4cbccfab766d947e758c94c5b5a3b8564f8b92d"
+unified-engine-atom@7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/unified-engine-atom/-/unified-engine-atom-7.0.1.tgz#14fd7477c0068d465ea9a85d26ffbe14ee041d4f"
   dependencies:
     find-root "^1.0.0"
     to-vfile "^4.0.0"
