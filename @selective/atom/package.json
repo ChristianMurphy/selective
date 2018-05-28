@@ -1,7 +1,7 @@
 {
   "name": "@selective/atom",
   "main": "./atom.js",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "Atom bindings for selective",
   "keywords": [
     "lint",

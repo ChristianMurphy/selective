@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.2.8"></a>
+## [0.2.8](https://github.com/ChristianMurphy/selective/compare/v0.2.7...v0.2.8) (2018-05-28)
+
+
+### Bug Fixes
+
+* update dependency unified-engine-atom to v7 ([0cb5661](https://github.com/ChristianMurphy/selective/commit/0cb5661))
+* update dependency unified-engine-atom to v7.0.1 ([381496c](https://github.com/ChristianMurphy/selective/commit/381496c))
+
+
+
+
 <a name="0.2.7"></a>
 ## [0.2.7](https://github.com/ChristianMurphy/selective/compare/v0.2.6...v0.2.7) (2018-04-28)
 
