@@ -35,9 +35,9 @@
   version "6.1.3"
   resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-6.1.3.tgz#6c06eeae04c5ac789c3618df4d52aeda89ffb810"
 
-"@commitlint/config-lerna-scopes@6.1.3":
-  version "6.1.3"
-  resolved "https://registry.yarnpkg.com/@commitlint/config-lerna-scopes/-/config-lerna-scopes-6.1.3.tgz#c355213a14773a8be3093bcec7dcc8114adbcc52"
+"@commitlint/config-lerna-scopes@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-lerna-scopes/-/config-lerna-scopes-7.0.0.tgz#bc0669e70a4b15a52b1d8f1779fa1a24b6de7d23"
   dependencies:
     import-from "2.1.0"
     lerna "2.9.0"
