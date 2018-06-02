@@ -52,6 +52,12 @@
     lodash.startcase "4.4.0"
     lodash.upperfirst "4.3.1"
 
+"@commitlint/execute-rule@^6.1.3":
+  version "6.1.3"
+  resolved "https://registry.yarnpkg.com/@commitlint/execute-rule/-/execute-rule-6.1.3.tgz#48928e736ef15e8710d332a15c7c899555e4e10b"
+  dependencies:
+    babel-runtime "6.26.0"
+
 "@commitlint/execute-rule@^7.0.0":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/@commitlint/execute-rule/-/execute-rule-7.0.0.tgz#cbc65314fa9ebb9cd2c5b8cdd4dca6185b3aca4c"
@@ -81,6 +87,20 @@
     babel-runtime "^6.23.0"
     lodash.topairs "4.3.0"
 
+"@commitlint/load@^6.1.3":
+  version "6.1.3"
+  resolved "https://registry.yarnpkg.com/@commitlint/load/-/load-6.1.3.tgz#1be40711397958f316cf40577a9c879a16f00a54"
+  dependencies:
+    "@commitlint/execute-rule" "^6.1.3"
+    "@commitlint/resolve-extends" "^6.1.3"
+    babel-runtime "^6.23.0"
+    cosmiconfig "^4.0.0"
+    lodash.merge "4.6.1"
+    lodash.mergewith "4.6.1"
+    lodash.pick "4.4.0"
+    lodash.topairs "4.3.0"
+    resolve-from "4.0.0"
+
 "@commitlint/load@^7.0.0":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/@commitlint/load/-/load-7.0.0.tgz#d924f4c5c06d8845b16a50b563829a7fffa230a8"
@@ -106,19 +126,19 @@
     conventional-changelog-angular "^1.3.3"
     conventional-commits-parser "^2.1.0"
 
-"@commitlint/prompt-cli@7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/prompt-cli/-/prompt-cli-7.0.0.tgz#f81ad17bfe6b640ecbcd130a16fc9b9df1b91df4"
+"@commitlint/prompt-cli@6.1.3":
+  version "6.1.3"
+  resolved "https://registry.yarnpkg.com/@commitlint/prompt-cli/-/prompt-cli-6.1.3.tgz#a69b5f987dac88566f610dec31eb27e586b9c495"
   dependencies:
-    "@commitlint/prompt" "^7.0.0"
+    "@commitlint/prompt" "^6.1.3"
     execa "0.9.0"
     meow "3.7.0"
 
-"@commitlint/prompt@^7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/prompt/-/prompt-7.0.0.tgz#d44359fab0cfb61eb7ebb67a89da2651939f5102"
+"@commitlint/prompt@^6.1.3":
+  version "6.1.3"
+  resolved "https://registry.yarnpkg.com/@commitlint/prompt/-/prompt-6.1.3.tgz#ca4dee582a1c24297266d6bb6f5eb0ed45a1db46"
   dependencies:
-    "@commitlint/load" "^7.0.0"
+    "@commitlint/load" "^6.1.3"
     babel-runtime "^6.23.0"
     chalk "^2.0.0"
     lodash.camelcase "4.3.0"
@@ -138,6 +158,17 @@
     "@marionebl/sander" "^0.6.0"
     babel-runtime "^6.23.0"
     git-raw-commits "^1.3.0"
+
+"@commitlint/resolve-extends@^6.1.3":
+  version "6.1.3"
+  resolved "https://registry.yarnpkg.com/@commitlint/resolve-extends/-/resolve-extends-6.1.3.tgz#f45fcfe43860e05e38f3d94d54caed7ddaa41e25"
+  dependencies:
+    babel-runtime "6.26.0"
+    lodash.merge "4.6.1"
+    lodash.omit "4.5.0"
+    require-uncached "^1.0.3"
+    resolve-from "^4.0.0"
+    resolve-global "^0.1.0"
 
 "@commitlint/resolve-extends@^7.0.0":
   version "7.0.0"
