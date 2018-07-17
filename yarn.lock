@@ -2205,11 +2205,10 @@ hast-util-parse-selector@^2.0.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/hast-util-parse-selector/-/hast-util-parse-selector-2.1.1.tgz#fc06985272f5d204a25187f002bb916521e74f3a"
 
-hast-util-select@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/hast-util-select/-/hast-util-select-1.0.1.tgz#9f1591efa62ba0bdf5ea4298b301aaae1dad612d"
+hast-util-select@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/hast-util-select/-/hast-util-select-2.0.0.tgz#9076e233b15d08f256566bdf81a7a3598ba694a8"
   dependencies:
-    camelcase "^3.0.0"
     comma-separated-tokens "^1.0.2"
     css-selector-parser "^1.3.0"
     hast-util-has-property "^1.0.0"
@@ -2217,7 +2216,7 @@ hast-util-select@1.0.1:
     hast-util-whitespace "^1.0.0"
     not "^0.1.0"
     nth-check "^1.0.1"
-    property-information "^3.1.0"
+    property-information "^4.0.0"
     space-separated-tokens "^1.1.0"
     zwitch "^1.0.0"
 
@@ -4350,6 +4349,12 @@ prompts@^0.1.9:
 property-information@^3.0.0, property-information@^3.1.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/property-information/-/property-information-3.2.0.tgz#fd1483c8fbac61808f5fe359e7693a1f48a58331"
+
+property-information@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/property-information/-/property-information-4.0.0.tgz#a9fd60541ef59248d1ea65bca8dd5f0e2aff733b"
+  dependencies:
+    xtend "^4.0.1"
 
 propose@0.0.5:
   version "0.0.5"
