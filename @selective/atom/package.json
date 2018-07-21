@@ -1,7 +1,7 @@
 {
   "name": "@selective/atom",
   "main": "./atom.js",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "description": "Atom bindings for selective",
   "keywords": [
     "lint",
@@ -16,7 +16,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@selective/rehype": "^0.2.9",
+    "@selective/rehype": "^0.2.10",
     "atom-package-deps": "4.6.2",
     "rehype": "5.0.1",
     "unified-engine-atom": "7.0.1"

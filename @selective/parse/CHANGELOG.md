@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.2.10"></a>
+## [0.2.10](https://github.com/ChristianMurphy/selective/compare/v0.2.9...v0.2.10) (2018-07-21)
+
+
+### Bug Fixes
+
+* update dependency postcss to v7 ([c8ab61f](https://github.com/ChristianMurphy/selective/commit/c8ab61f))
+* update dependency postcss to v7.0.1 ([43a1310](https://github.com/ChristianMurphy/selective/commit/43a1310))
+
+
+
+
 <a name="0.2.9"></a>
 ## [0.2.9](https://github.com/ChristianMurphy/selective/compare/v0.2.8...v0.2.9) (2018-06-23)
 
