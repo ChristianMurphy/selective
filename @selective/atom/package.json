@@ -18,7 +18,7 @@
   "dependencies": {
     "@selective/rehype": "^0.2.10",
     "atom-package-deps": "4.6.2",
-    "rehype": "5.0.1",
+    "rehype": "6.0.0",
     "unified-engine-atom": "7.0.1"
   },
   "eslintConfig": {
