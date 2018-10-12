@@ -9,14 +9,12 @@
   },
   "scripts": {
     "format": "prettier --write **/*.{js,json,md}",
-    "precommit": "lint-staged",
     "commit": "commit",
     "lint": "yarn lint-javascript && yarn lint-markdown && yarn lint-commit",
     "lint-commit": "commitlint --from HEAD~1",
     "lint-commit-ci": "commitlint-travis",
     "lint-javascript": "eslint --ignore-path .gitignore .",
-    "lint-markdown":
-      "remark . --frail --ignore-path .gitignore && eslint --ignore-path .gitignore . --ext md .",
+    "lint-markdown": "remark . --frail --ignore-path .gitignore && eslint --ignore-path .gitignore . --ext md .",
     "test": "jest",
     "coverage": "jest --coverage"
   },
@@ -31,7 +29,7 @@
     "eslint-plugin-jest": "21.24.1",
     "eslint-plugin-jsdoc": "3.8.0",
     "eslint-plugin-markdown": "1.0.0-beta.8",
-    "husky": "0.14.3",
+    "husky": "1.1.2",
     "jest": "23.6.0",
     "lerna": "3.4.3",
     "lint-staged": "7.3.0",
@@ -53,7 +51,11 @@
       "plugin:jest/recommended",
       "standard-jsdoc"
     ],
-    "plugins": ["jest", "jsdoc", "markdown"],
+    "plugins": [
+      "jest",
+      "jsdoc",
+      "markdown"
+    ],
     "env": {
       "jest/globals": true,
       "node": true,
@@ -64,7 +66,10 @@
     }
   },
   "lint-staged": {
-    "*.{js,json,md}": ["prettier --write", "git add"]
+    "*.{js,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "remarkConfig": {
     "settings": {
@@ -74,11 +79,16 @@
       "preset-lint-recommended",
       "preset-lint-consistent",
       "validate-links",
-      ["remark-lint-list-item-indent", "mixed"]
+      [
+        "remark-lint-list-item-indent",
+        "mixed"
+      ]
     ]
   },
   "renovate": {
-    "extends": ["config:base"],
+    "extends": [
+      "config:base"
+    ],
     "automerge": true,
     "major": {
       "automerge": false
@@ -89,5 +99,12 @@
     "semanticPrefix": "chore:",
     "semanticCommitScope": ""
   },
-  "workspaces": ["@selective/*"]
+  "workspaces": [
+    "@selective/*"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
 }
