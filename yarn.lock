@@ -1400,9 +1400,9 @@ byte-size@^4.0.3:
   integrity sha512-82RPeneC6nqCdSwCX2hZUz3JPOvN5at/nTEw/CMf05Smu3Hrpo9Psb7LjN+k+XndNArG1EY8L4+BM3aTM4BCvw==
 
 cacache@^11.0.1, cacache@^11.2.0:
-  version "11.2.0"
-  resolved "https://registry.yarnpkg.com/cacache/-/cacache-11.2.0.tgz#617bdc0b02844af56310e411c0878941d5739965"
-  integrity sha512-IFWl6lfK6wSeYCHUXh+N1lY72UDrpyrYQJNIVQf48paDuWbv5RbAtJYf/4gUQFObTCHZwdZ5sI8Iw7nqwP6nlQ==
+  version "11.3.0"
+  resolved "https://registry.yarnpkg.com/cacache/-/cacache-11.3.0.tgz#c37d4c12e3114064becf8904adba039a5befd4fd"
+  integrity sha512-6Af/h56f+GXGAuxfutTZGxOofff+PfaZ3K0XlXjMAzS8HHijzNYySP8zHrJ0vniSzd4wrMgwOHegWh695pHSRA==
   dependencies:
     bluebird "^3.5.1"
     chownr "^1.0.1"
