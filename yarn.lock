@@ -1139,21 +1139,13 @@ atob@^2.1.1:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-atom-package-deps@4.6.2:
-  version "4.6.2"
-  resolved "https://registry.yarnpkg.com/atom-package-deps/-/atom-package-deps-4.6.2.tgz#9976ecd6d137bf8c8b24859edf319c2dd0e76b4d"
-  integrity sha512-GOcCULZPzpcFfnHo9Oz5fT/EaArFHNs84E4rp/Nox0/GlS1UYkEF44FRdgD+7TxAudRfQAXE0a8wh0GealCXZg==
+atom-package-deps@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/atom-package-deps/-/atom-package-deps-5.0.0.tgz#bd54b734b9288ed54a7b0b16995bf3ce7a45ca2f"
+  integrity sha512-C5Z2V68GuZvuLowrqQ8O8+BE8P4Elhxuc6eZiZ0770CH2e2R/Ausz5VebbDxVOSedFwAaz3CzQJYHayqZ5wKQg==
   dependencies:
-    atom-package-path "^1.1.0"
     sb-fs "^3.0.0"
-    semver "^5.3.0"
-
-atom-package-path@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/atom-package-path/-/atom-package-path-1.1.0.tgz#b51fedbc00e7c8ce5223d0d803db7a3f4f69614f"
-  integrity sha1-tR/tvADnyM5SI9DYA9t6P09pYU8=
-  dependencies:
-    sb-callsite "^1.1.2"
+    semver "^5.6.0"
 
 aws-sign2@~0.7.0:
   version "0.7.0"
@@ -7202,11 +7194,6 @@ sax@^1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
-
-sb-callsite@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/sb-callsite/-/sb-callsite-1.1.2.tgz#28191fb66d64e3a3ee92084a95a90fcb5102243b"
-  integrity sha1-KBkftm1k46PukghKlakPy1ECJDs=
 
 sb-fs@^3.0.0:
   version "3.0.0"
