@@ -2446,7 +2446,16 @@ eslint-plugin-jest@22.1.2:
   resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-22.1.2.tgz#1ea36cc3faedbdb788e702ca633d635ca14e91e8"
   integrity sha512-jSPT4rVmNetkeCIyrvvOM0wJtgoUSbKHIUDoOGzIISsg51eWN/nISPNKVM+jXMMDI9oowbyapOnpKSXlsLiDpQ==
 
-eslint-plugin-jsdoc@3.14.1, eslint-plugin-jsdoc@>=1.1.0:
+eslint-plugin-jsdoc@3.15.0:
+  version "3.15.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-3.15.0.tgz#b392b36f977cef3b645b47ddfa17434f2fa882e7"
+  integrity sha512-CzrxUdaN1AyF8nBeaV/NWzgDIB0OPVAnUuJXShFCynZU671yyQltZXOgXPFSohyNL/3epY3mTSJDBmF+DYX9AQ==
+  dependencies:
+    comment-parser "^0.5.1"
+    jsdoctypeparser "^2.0.0-alpha-8"
+    lodash "^4.17.11"
+
+eslint-plugin-jsdoc@>=1.1.0:
   version "3.14.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-3.14.1.tgz#465836dfde8e3061a66e69a95b21e83f9c89779e"
   integrity sha512-rhWrW3UrMt487TCXxSIXW4aCqB3pb1tGAWki0CjWG/ApQdNnhoCs/Lz7EtxOfQfBGvBSjfYiXEEnJRCRMTtubQ==
