@@ -6907,10 +6907,10 @@ remark-stringify@^6.0.0:
     unherit "^1.0.4"
     xtend "^4.0.1"
 
-remark-validate-links@8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/remark-validate-links/-/remark-validate-links-8.0.1.tgz#5efad6ce667148f2023e6faf95d028f36739356b"
-  integrity sha512-0qxtaa39n0+poqTtU4CylH9pvyO+cYRjz+/0SYW9F/4OtJ60tNnIkCp/I7RHWEzMVsrXEXT8NXYHH0v9wAkLfw==
+remark-validate-links@8.0.2:
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/remark-validate-links/-/remark-validate-links-8.0.2.tgz#599fd837af8452b473576e58fed4aafaa99a621a"
+  integrity sha512-TDhmhEgyP9ivUcU2kyKl3d5dXwfN099woLoB6JVdYHRP7EFGgcQHNzZDRqs7zrSPCiVGgvna2HWhyWuNV7QPiQ==
   dependencies:
     github-slugger "^1.2.0"
     hosted-git-info "^2.5.0"
