@@ -1498,13 +1498,13 @@ atob@^2.1.1:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-atom-package-deps@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/atom-package-deps/-/atom-package-deps-5.0.0.tgz#bd54b734b9288ed54a7b0b16995bf3ce7a45ca2f"
-  integrity sha512-C5Z2V68GuZvuLowrqQ8O8+BE8P4Elhxuc6eZiZ0770CH2e2R/Ausz5VebbDxVOSedFwAaz3CzQJYHayqZ5wKQg==
+atom-package-deps@5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/atom-package-deps/-/atom-package-deps-5.1.0.tgz#be493f783d9c0a8b5b7f2c4ab0ddcc778035f878"
+  integrity sha512-RGktH8NSFBJ5rdwuta3M7DbFdDr1EgrXo7uW7DQR/+lWJZcrfH2yxobnSdb/g1JM1tTvLyRYmZYOeRJGqQ9UGw==
   dependencies:
-    sb-fs "^3.0.0"
-    semver "^5.6.0"
+    sb-fs "^4.0.0"
+    semver "^6.0.0"
 
 aws-sign2@~0.7.0:
   version "0.7.0"
@@ -7228,18 +7228,12 @@ sax@^1.2.4:
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
-sb-fs@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/sb-fs/-/sb-fs-3.0.0.tgz#fbdcdd3010e80a1b8e27490cef336064974203b8"
-  integrity sha1-+9zdMBDoChuOJ0kM7zNgZJdCA7g=
+sb-fs@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/sb-fs/-/sb-fs-4.0.0.tgz#b84ca0045f09d4643304113d4e0543b508a56f73"
+  integrity sha512-UjjIHC4uahPWvKYqgknvFCCJ11S0oDahz+nsmyTCAmARKto31aoE+Lu7GGGK0nogengJEKGzFdh46ho5+IL88Q==
   dependencies:
-    sb-promisify "^2.0.1"
     strip-bom-buf "^1.0.0"
-
-sb-promisify@^2.0.1:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/sb-promisify/-/sb-promisify-2.0.2.tgz#4277a54754488aa9675d886e354db894c9bdc981"
-  integrity sha1-QnelR1RIiqlnXYhuNU24lMm9yYE=
 
 semver-compare@^1.0.0:
   version "1.0.0"
@@ -7255,6 +7249,11 @@ semver@5.6.0:
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.6.0.tgz#7e74256fbaa49c75aa7c7a205cc22799cac80004"
   integrity sha512-RS9R6R35NYgQn++fkDWaOmqGoj4Ek9gGs+DPxNUZKuwE183xjJroKvyo1IzVFeXvUrvmALy6FWD5xrdJT25gMg==
+
+semver@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-6.0.0.tgz#05e359ee571e5ad7ed641a6eec1e547ba52dea65"
+  integrity sha512-0UewU+9rFapKFnlbirLi3byoOuhrSsli/z/ihNnvM24vgF+8sNBiI1LZPBSH9wJKUwaUbw+s3hToDLCXkrghrQ==
 
 semver@~5.3.0:
   version "5.3.0"
