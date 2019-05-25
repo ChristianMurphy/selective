@@ -3522,10 +3522,10 @@ hast-util-parse-selector@^2.2.0:
   resolved "https://registry.yarnpkg.com/hast-util-parse-selector/-/hast-util-parse-selector-2.2.1.tgz#4ddbae1ae12c124e3eb91b581d2556441766f0ab"
   integrity sha512-Xyh0v+nHmQvrOqop2Jqd8gOdyQtE8sIP9IQf7mlVDqp924W4w/8Liuguk2L2qei9hARnQSG2m+wAOCxM7npJVw==
 
-hast-util-select@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/hast-util-select/-/hast-util-select-3.0.0.tgz#37e6386dcf82e712ac34cdbbdae7c7bd92d7f3d0"
-  integrity sha512-4JVNXENly4s6CTAXbU7OwhVreoLqMV72YeW06wdqoqUCP77uKk5kYIRSN28+PjUYpQuXgtff1FdILwsvWMOL7w==
+hast-util-select@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/hast-util-select/-/hast-util-select-3.0.1.tgz#1f642c91ab5fb41ca2d485e4e701739f39d42552"
+  integrity sha512-at6Tl9T5PwfcGrKar38Kw+GjQueuq1bj4dFV1x9HT8c8aw0WpinjTiPAbvBmsYRhHlOZJxOqCRWszZFUaJ0M/A==
   dependencies:
     bcp-47-match "^1.0.0"
     comma-separated-tokens "^1.0.2"
