@@ -3532,10 +3532,10 @@ hast-util-select@3.0.1:
     unist-util-visit "^1.3.1"
     zwitch "^1.0.0"
 
-hast-util-to-html@^5.0.0:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/hast-util-to-html/-/hast-util-to-html-5.0.1.tgz#74cb518b3612b9f1aeb92fd29478c7a092f33953"
-  integrity sha512-zPuZuclFMJAP50wi9FoP3fcjOWmP3A9CqiPiR1nqOoweYDB4Urc2tg4ZITeDOrOjUQG5zArGopeGDuu3+vkGQg==
+hast-util-to-html@^6.0.0:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/hast-util-to-html/-/hast-util-to-html-6.0.1.tgz#46f4f8d4d2e39c0510268c873a82c360766a0366"
+  integrity sha512-9LjLAsO2gPO9H6N0VxZsK4sqNZY1A0lMNDfdpMseryV18Hri2++guFfPmjY58PzmtBlBvDflqktxjSm2I1o1yg==
   dependencies:
     ccount "^1.0.0"
     comma-separated-tokens "^1.0.1"
@@ -3544,8 +3544,8 @@ hast-util-to-html@^5.0.0:
     html-void-elements "^1.0.0"
     property-information "^5.0.0"
     space-separated-tokens "^1.0.0"
-    stringify-entities "^1.0.1"
-    unist-util-is "^2.0.0"
+    stringify-entities "^2.0.0"
+    unist-util-is "^3.0.0"
     xtend "^4.0.1"
 
 hast-util-to-string@^1.0.1:
@@ -3911,7 +3911,7 @@ is-date-object@^1.0.1:
   resolved "https://registry.yarnpkg.com/is-date-object/-/is-date-object-1.0.1.tgz#9aa20eb6aeebbff77fbd33e74ca01b33581d3a16"
   integrity sha1-mqIOtq7rv/d/vTPnTKAbM1gdOhY=
 
-is-decimal@^1.0.0:
+is-decimal@^1.0.0, is-decimal@^1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/is-decimal/-/is-decimal-1.0.3.tgz#381068759b9dc807d8c0dc0bfbae2b68e1da48b7"
   integrity sha512-bvLSwoDg2q6Gf+E2LEPiklHZxxiSi3XAh4Mav65mKqTfCO1HM3uBs24TjEH8iJX3bbDdLXKJXBTmGzuTUuAEjQ==
@@ -6543,21 +6543,21 @@ rehype-parse@^6.0.0:
     parse5 "^5.0.0"
     xtend "^4.0.1"
 
-rehype-stringify@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/rehype-stringify/-/rehype-stringify-5.0.0.tgz#f66780704824ed31b8945ac1b19093a5dab0efd3"
-  integrity sha512-uQVzP/eLMM6kdM5Myo0mt5rrb5ntCAxFGNobtzMTTdL1+hqc6WNVxB9uwZyckm54qz/0SnDkzgvCV0/AZy4wCw==
+rehype-stringify@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/rehype-stringify/-/rehype-stringify-6.0.0.tgz#a8a573b6f9bf98916955978acd746c37cfd88ac0"
+  integrity sha512-grV/hhA7z9GbUJZk0ILzprSE0YY9lvTmYuvgRjXdFXrrag5gNeqXBQIuG1m4zFW6PFm0YYnJ/qgf5y6yui4VsA==
   dependencies:
-    hast-util-to-html "^5.0.0"
+    hast-util-to-html "^6.0.0"
     xtend "^4.0.1"
 
-rehype@7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/rehype/-/rehype-7.0.0.tgz#23a0134d341de8b693c02a0fedf96498f5c82b61"
-  integrity sha512-+D+LpHtbA32tzbEW1G9vafZkegKSE+/ij49P+jF64lyJgROO3s8qihpSNdsqJVDxIuhJ0pQcHBhqZoZ3ATtMbQ==
+rehype@8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/rehype/-/rehype-8.0.0.tgz#d0776cfcc353dd15c4c03b2de76d78a6c302e69c"
+  integrity sha512-fqcYo/q4Xka0ZvS6abiHtZsN7/TauTzTZQfXqtWACo9Qz76Vv/8uzhOizAfDBjVPhbnDl3xPIMRArUdcV/xFaA==
   dependencies:
     rehype-parse "^6.0.0"
-    rehype-stringify "^5.0.0"
+    rehype-stringify "^6.0.0"
     unified "^7.0.0"
 
 remark-cli@6.0.1:
@@ -7641,6 +7641,17 @@ stringify-entities@^1.0.1:
     is-alphanumerical "^1.0.0"
     is-hexadecimal "^1.0.0"
 
+stringify-entities@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/stringify-entities/-/stringify-entities-2.0.0.tgz#fa7ca6614b355fb6c28448140a20c4ede7462827"
+  integrity sha512-fqqhZzXyAM6pGD9lky/GOPq6V4X0SeTAFBl0iXb/BzOegl40gpf/bV3QQP7zULNYvjr6+Dx8SCaDULjVoOru0A==
+  dependencies:
+    character-entities-html4 "^1.0.0"
+    character-entities-legacy "^1.0.0"
+    is-alphanumerical "^1.0.0"
+    is-decimal "^1.0.2"
+    is-hexadecimal "^1.0.0"
+
 stringify-object@^3.2.2:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/stringify-object/-/stringify-object-3.3.0.tgz#703065aefca19300d3ce88af4f5b3956d7556629"
@@ -8139,11 +8150,6 @@ unist-util-inspect@^4.1.2:
   integrity sha512-7xxyvKiZ1SC9vL5qrMqKub1T31gRHfau4242F69CcaOrXt//5PmRVOmDZ36UAEgiT+tZWzmQmbNZn+mVtnR9HQ==
   dependencies:
     is-empty "^1.0.0"
-
-unist-util-is@^2.0.0:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/unist-util-is/-/unist-util-is-2.1.3.tgz#459182db31f4742fceaea88d429693cbf0043d20"
-  integrity sha512-4WbQX2iwfr/+PfM4U3zd2VNXY+dWtZsN1fLnWEi2QQXA4qyDYAZcDMfXUX0Cu6XZUHHAO9q4nyxxLT4Awk1qUA==
 
 unist-util-is@^3.0.0:
   version "3.0.0"
