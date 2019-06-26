@@ -8154,12 +8154,20 @@ unified-lint-rule@^1.0.0, unified-lint-rule@^1.0.2:
   dependencies:
     wrapped "^1.0.1"
 
-unified-message-control@^1.0.0, unified-message-control@^1.0.3:
+unified-message-control@^1.0.0:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/unified-message-control/-/unified-message-control-1.0.4.tgz#a5e02c07112f78c6687b83a10392c2fba86dc09b"
   integrity sha512-e1dEtN4Z/TvLn/qHm+xeZpzqhJTtfZusFErk336kkZVpqrJYiV9ptxq+SbRPFMlN0OkjDYHmVJ929KYjsMTo3g==
   dependencies:
     trim "0.0.1"
+    unist-util-visit "^1.0.0"
+    vfile-location "^2.0.0"
+
+unified-message-control@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/unified-message-control/-/unified-message-control-2.0.0.tgz#305da7a06d45ca250770431845f36d53b79e48a9"
+  integrity sha512-6TE36M/YIQhUr+XlG+YKXDCCTC2FPtCgXIwtdJcHLnrRGR1ZjYwZMH2pnp7a4OaE7sST9GUqQPjVHM7TRTTlyQ==
+  dependencies:
     unist-util-visit "^1.0.0"
     vfile-location "^2.0.0"
 
