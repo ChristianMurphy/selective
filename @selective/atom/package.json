@@ -19,7 +19,7 @@
     "@selective/rehype": "^0.2.10",
     "atom-package-deps": "5.1.0",
     "rehype": "8.0.0",
-    "unified-engine-atom": "7.0.1"
+    "unified-engine-atom": "8.0.0"
   },
   "eslintConfig": {
     "globals": {
