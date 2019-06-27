@@ -2782,12 +2782,10 @@ escodegen@^1.9.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-standard-jsdoc@0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard-jsdoc/-/eslint-config-standard-jsdoc-0.3.2.tgz#883588141c0fe17bf05629ccfed6b411d7ce72fd"
-  integrity sha1-iDWIFBwP4XvwVinM/ta0EdfOcv0=
-  dependencies:
-    eslint-plugin-jsdoc ">=1.1.0"
+eslint-config-standard-jsdoc@8.1.8:
+  version "8.1.8"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard-jsdoc/-/eslint-config-standard-jsdoc-8.1.8.tgz#8b1d916ee1d078a5b07fee559aabb7ff1258d67f"
+  integrity sha512-P8lgKlKcZmrVkRxGO2xz6r8Lt3/Fu840VaDx/9BMkLD8GLGGa+F/vUv/3/XvNEKEh9WcWaxCeBFhjwJmqYWpag==
 
 eslint-plugin-jest@22.7.1:
   version "22.7.1"
@@ -2798,17 +2796,6 @@ eslint-plugin-jsdoc@10.0.0:
   version "10.0.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-10.0.0.tgz#06570b9035e3be99525c63ba3e9fdd67868fe776"
   integrity sha512-xZUjGTjg4t4XoHe4VVlIddV9Xy3XFDKOyVTwM1kuyGGSP691w/o3TbxNIHe7j+x+8hcR1KGk/uLEOaI+FCTQgg==
-  dependencies:
-    comment-parser "^0.5.5"
-    debug "^4.1.1"
-    flat-map-polyfill "^0.3.8"
-    jsdoctypeparser "4.0.0"
-    lodash "^4.17.11"
-
-eslint-plugin-jsdoc@>=1.1.0:
-  version "8.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-8.5.0.tgz#55d54f5faaf57590c812d9dcce7f0f236e95391a"
-  integrity sha512-6n/KtdLwDzsRy/IExCgvR15XWRWOD/8OllpClRM/7Upmp/AG9Q1FLN3KwZxaklZPDIiuWBxaLII76LmnNupKpQ==
   dependencies:
     comment-parser "^0.5.5"
     debug "^4.1.1"
