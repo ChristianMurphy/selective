@@ -4175,6 +4175,11 @@ is-plain-obj@^1.0.0, is-plain-obj@^1.1.0:
   resolved "https://registry.yarnpkg.com/is-plain-obj/-/is-plain-obj-1.1.0.tgz#71a50c8429dfca773c92a390a4a03b39fcd51d3e"
   integrity sha1-caUMhCnfync8kqOQpKA7OfzVHT4=
 
+is-plain-obj@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/is-plain-obj/-/is-plain-obj-2.0.0.tgz#7fd1a7f1b69e160cde9181d2313f445c68aa2679"
+  integrity sha512-EYisGhpgSCwspmIuRHGjROWTon2Xp8Z7U03Wubk/bTL5TTRC5R1rGVgyjzBrk9+ULdH6cRD06KRcw/xfqhVYKQ==
+
 is-plain-object@^2.0.3, is-plain-object@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/is-plain-object/-/is-plain-object-2.0.4.tgz#2c163b3fafb1b606d9d17928f05c2a1c38e07677"
@@ -6623,14 +6628,14 @@ rehype-stringify@^6.0.0:
     hast-util-to-html "^6.0.0"
     xtend "^4.0.1"
 
-rehype@8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/rehype/-/rehype-8.0.0.tgz#d0776cfcc353dd15c4c03b2de76d78a6c302e69c"
-  integrity sha512-fqcYo/q4Xka0ZvS6abiHtZsN7/TauTzTZQfXqtWACo9Qz76Vv/8uzhOizAfDBjVPhbnDl3xPIMRArUdcV/xFaA==
+rehype@9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/rehype/-/rehype-9.0.0.tgz#0eb64763aa0c94a8df753e14cabf985ae7d062a1"
+  integrity sha512-JVwXi7jTBKQfktHfj8Rke6/ZKJMbup/RFzKRwCeio/sEcmwGpV8dWXOCkrM70ZO6zTnHhA7K5ReOiAWCPRbfog==
   dependencies:
     rehype-parse "^6.0.0"
     rehype-stringify "^6.0.0"
-    unified "^7.0.0"
+    unified "^8.0.0"
 
 remark-cli@6.0.1:
   version "6.0.1"
@@ -8237,6 +8242,17 @@ unified@^7.0.0:
     trough "^1.0.0"
     vfile "^3.0.0"
     x-is-string "^0.1.0"
+
+unified@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/unified/-/unified-8.0.0.tgz#5a4e4ff1a1dc020003a4aba6cb35764c03997106"
+  integrity sha512-g6muNxZsX8ROcST/iuFdi20Poio+Z3dGc0XFPfxh6cfqu92LN6LlX2RuGYEYHhu+qRPIl99sC32eMOyJWc9L6Q==
+  dependencies:
+    bail "^1.0.0"
+    extend "^3.0.0"
+    is-plain-obj "^2.0.0"
+    trough "^1.0.0"
+    vfile "^4.0.0"
 
 union-value@^1.0.0:
   version "1.0.1"
