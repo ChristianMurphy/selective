@@ -2819,10 +2819,10 @@ eslint-plugin-jest@22.7.2:
   resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-22.7.2.tgz#7ab118a66a34e46ae5e16a128b5d24fd28b43dca"
   integrity sha512-Aecqe3ulBVI7amgOycVI8ZPL8o0SnGHOf3zn2/Ciu8TXyXDHcjtwD3hOs3ss/Qh/VAwlW/DMcuiXg5btgF+XMA==
 
-eslint-plugin-jsdoc@15.3.0:
-  version "15.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-15.3.0.tgz#501e3ca70d3fb83f8b8dea398a471ee1cebf99b9"
-  integrity sha512-xBOQo0Ao9VnwvLtczFSfSdh5l5CJypu2gT355x/WDkqWhIkXwIkxnQ8VSlSwl9mhNIA82BaN+mHzD2IWGS9Vaw==
+eslint-plugin-jsdoc@15.3.2:
+  version "15.3.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-15.3.2.tgz#222e3013101c59ebf10b49fb2d2accf5e5eae677"
+  integrity sha512-EpdXvRO5oS1mxsD8Jhkq4f3f5ZwM+OxJl7J93cw2H+XlZpu41Gl5n+dohDnG1poq7x6HRp3ONXHFWNHZ5n4Wnw==
   dependencies:
     comment-parser "^0.5.5"
     debug "^4.1.1"
@@ -2830,6 +2830,7 @@ eslint-plugin-jsdoc@15.3.0:
     flat-map-polyfill "^0.3.8"
     jsdoctypeparser "5.0.1"
     lodash "^4.17.11"
+    regextras "^0.6.1"
 
 eslint-plugin-json@^1.4.0:
   version "1.4.0"
@@ -6683,6 +6684,11 @@ regexpp@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-2.0.1.tgz#8d19d31cf632482b589049f8281f93dbcba4d07f"
   integrity sha512-lv0M6+TkDVniA3aD1Eg0DVpfU/booSu7Eev3TDO/mZKHBfVjgCGTV4t4buppESEYDtkArYFOxTJWv6S5C+iaNw==
+
+regextras@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/regextras/-/regextras-0.6.1.tgz#9689641bbb338e0ff7001a5c507c6a2008df7b36"
+  integrity sha512-EzIHww9xV2Kpqx+corS/I7OBmf2rZ0pKKJPsw5Dc+l6Zq1TslDmtRIP9maVn3UH+72MIXmn8zzDgP07ihQogUA==
 
 rehype-parse@^6.0.0:
   version "6.0.1"
