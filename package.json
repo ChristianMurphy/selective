@@ -19,11 +19,11 @@
     "coverage": "jest --coverage"
   },
   "devDependencies": {
-    "@commitlint/cli": "8.0.0",
-    "@commitlint/config-conventional": "8.0.0",
-    "@commitlint/config-lerna-scopes": "8.0.0",
-    "@commitlint/prompt-cli": "8.0.0",
-    "@commitlint/travis-cli": "8.0.0",
+    "@commitlint/cli": "8.1.0",
+    "@commitlint/config-conventional": "8.1.0",
+    "@commitlint/config-lerna-scopes": "8.1.0",
+    "@commitlint/prompt-cli": "8.1.0",
+    "@commitlint/travis-cli": "8.1.0",
     "eslint": "6.0.1",
     "eslint-config-standard-jsdoc": "9.0.0",
     "eslint-plugin-jest": "22.8.0",
