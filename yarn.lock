@@ -2182,7 +2182,7 @@ commander@^2.20.0, commander@~2.20.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.0.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
   integrity sha512-7j2y+40w61zy6YC2iRNpUe/NwhNyoXrYpHMrSunaMG64nRnaf96zO/KMQR4OyN/UnE5KLyEBnKHd4aG3rskjpQ==
 
-comment-parser@^0.6.0:
+comment-parser@^0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/comment-parser/-/comment-parser-0.6.1.tgz#88040c7c0a57c62e64962c3e888518620a42e7c9"
   integrity sha512-Putzd7Ilyvknmb1KxGf5el9uw0sPx9gEVnDrm8tlvXGN1i8Uaa2VBxB32hUhfzTlrEhhxNQ+pKq4ZNe8wNxjmw==
@@ -2807,16 +2807,16 @@ eslint-plugin-jest@22.12.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-22.12.0.tgz#6f83de048371ec8dda20f3195c76d1cd6fd8de71"
   integrity sha512-Uoi4KvIJl59wgwjltgNhvVThQHbxs94TE3qUCg70aanjDk0IMWxKFa1K3F+9RHvcY0zddztbvX1IVDuR5a34ig==
 
-eslint-plugin-jsdoc@15.5.4:
-  version "15.5.4"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-15.5.4.tgz#5e5315d7fe6b5e84084834ad8a1f8c3f68847556"
-  integrity sha512-WjCQS5zk1cHHdnX35xfyiCvB9CQr0fI9lYXYrDw4JidhmstPbeFfA+kthLEOt7Y2PqXd2Rs7BEb467cZazExDg==
+eslint-plugin-jsdoc@15.5.5:
+  version "15.5.5"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-15.5.5.tgz#4fa8cfd1142684bef188b4ac490ae03f3b553d51"
+  integrity sha512-CnmbmgVqcEMUf5dPaHgyzF7uLSfSShTaVud3g9YVWSn5Qw+SgB8y3vp/pYdtzrO8/sVKyqFCEG3DW3Gx0KIo5w==
   dependencies:
-    comment-parser "^0.6.0"
+    comment-parser "^0.6.1"
     debug "^4.1.1"
     flat-map-polyfill "^0.3.8"
     jsdoctypeparser "5.0.1"
-    lodash "^4.17.14"
+    lodash "^4.17.15"
     regextras "^0.6.1"
 
 eslint-plugin-json@^1.4.0:
@@ -5138,6 +5138,11 @@ lodash@^3.3.1:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
   integrity sha1-W/Rejkm6QYnhfUgnid/RW9FAt7Y=
+
+lodash@^4.17.15:
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
 log-symbols@^1.0.2:
   version "1.0.2"
