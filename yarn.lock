@@ -2807,10 +2807,10 @@ eslint-plugin-jest@22.12.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-22.12.0.tgz#6f83de048371ec8dda20f3195c76d1cd6fd8de71"
   integrity sha512-Uoi4KvIJl59wgwjltgNhvVThQHbxs94TE3qUCg70aanjDk0IMWxKFa1K3F+9RHvcY0zddztbvX1IVDuR5a34ig==
 
-eslint-plugin-jsdoc@15.5.3:
-  version "15.5.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-15.5.3.tgz#44e408e3bf2f60f3ad18dc829f9b9a1e34f33154"
-  integrity sha512-lw8wYa1UFV53JLoqKOQR8YBkKlE/aguR+HGyytL9VKsVvm83DK8ReYnNNDRKik3MF661cGuaUuGfIEcdqg9l4A==
+eslint-plugin-jsdoc@15.5.4:
+  version "15.5.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-15.5.4.tgz#5e5315d7fe6b5e84084834ad8a1f8c3f68847556"
+  integrity sha512-WjCQS5zk1cHHdnX35xfyiCvB9CQr0fI9lYXYrDw4JidhmstPbeFfA+kthLEOt7Y2PqXd2Rs7BEb467cZazExDg==
   dependencies:
     comment-parser "^0.6.0"
     debug "^4.1.1"
