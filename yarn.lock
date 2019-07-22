@@ -2792,10 +2792,10 @@ escodegen@^1.9.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-standard-jsdoc@9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard-jsdoc/-/eslint-config-standard-jsdoc-9.0.0.tgz#7f751b21d4db738759486a209d0db24f3a4c7c2b"
-  integrity sha512-s4Gpvr7MGTVqf79c3MykE9y95ipW9/cSkSQbvxp2ASbZBojwsulaBwumUiUMAnTjmnWAIT1ShacKtLuP7wwYzA==
+eslint-config-standard-jsdoc@9.2.0:
+  version "9.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard-jsdoc/-/eslint-config-standard-jsdoc-9.2.0.tgz#43d8491b6bc168f30701424a8ff42c37eb5df71e"
+  integrity sha512-A0BH9/6BzZO88WzeLHHZFQz7kdNPr/87HHb2iDBTxEWEWQ6EKW2c51/2YMPgKZR9ODqUJbiHBa4NBsFeawNrtw==
   dependencies:
     eslint-plugin-json "^1.4.0"
 
