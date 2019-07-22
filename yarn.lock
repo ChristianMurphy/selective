@@ -2821,13 +2821,12 @@ eslint-config-standard-jsdoc@9.2.0:
   dependencies:
     eslint-plugin-json "^1.4.0"
 
-eslint-plugin-jest@22.13.2:
-  version "22.13.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-22.13.2.tgz#9359bd43a29c381d63632a293e62451927b86402"
-  integrity sha512-uHPkdiMxP3ESGK0u/wu6cFCXuymjDXwoXZ4FMaY65bGL2RGi1nMXeGrVBRSv1YRGrnbPGH3qeuHymvbzcajfvg==
+eslint-plugin-jest@22.13.4:
+  version "22.13.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-22.13.4.tgz#114ed3e6864a170e72d271865bd87c55a4686a7f"
+  integrity sha512-+pua8duX2ELhCN55CGdnT1kIudDl2NE7k0koIbobx9ZzNYT8GhZHilP0WIIhOQ0XuU06JXFdOcQtPC/Z17zZ0g==
   dependencies:
     "@typescript-eslint/experimental-utils" "^1.13.0"
-    typescript "^3.5.3"
 
 eslint-plugin-jsdoc@15.6.1:
   version "15.6.1"
@@ -8194,11 +8193,6 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
-
-typescript@^3.5.3:
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.5.3.tgz#c830f657f93f1ea846819e929092f5fe5983e977"
-  integrity sha512-ACzBtm/PhXBDId6a6sDJfroT2pOWt/oOnk4/dElG5G33ZL776N3Y6/6bKZJBFpd+b05F3Ct9qDjMeJmRWtE2/g==
 
 uglify-js@^3.1.4:
   version "3.6.0"
