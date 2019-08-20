@@ -27,7 +27,7 @@
     "eslint": "6.2.0",
     "eslint-config-standard-jsdoc": "9.2.0",
     "eslint-plugin-jest": "22.15.1",
-    "eslint-plugin-jsdoc": "15.8.1",
+    "eslint-plugin-jsdoc": "15.8.3",
     "eslint-plugin-markdown": "1.0.0",
     "husky": "3.0.4",
     "jest": "24.9.0",
