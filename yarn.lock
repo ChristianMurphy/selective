@@ -2870,12 +2870,12 @@ escodegen@^1.9.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-standard-jsdoc@9.2.0:
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard-jsdoc/-/eslint-config-standard-jsdoc-9.2.0.tgz#43d8491b6bc168f30701424a8ff42c37eb5df71e"
-  integrity sha512-A0BH9/6BzZO88WzeLHHZFQz7kdNPr/87HHb2iDBTxEWEWQ6EKW2c51/2YMPgKZR9ODqUJbiHBa4NBsFeawNrtw==
+eslint-config-standard-jsdoc@9.2.1:
+  version "9.2.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard-jsdoc/-/eslint-config-standard-jsdoc-9.2.1.tgz#724b3f091e02916d607ced226a25f5f2e5b1f9c0"
+  integrity sha512-qiRmf3uCYmoiDKblsj+ZBL3pm4rPeDnZPCX4xHbP9PZNgyMNdQQ9HtO3n7zagZG7fnasVL2zF4mZJDt51pbC7Q==
   dependencies:
-    eslint-plugin-json "^1.4.0"
+    eslint-plugin-json "^2.0.1"
 
 eslint-plugin-jest@22.21.0:
   version "22.21.0"
@@ -2896,12 +2896,13 @@ eslint-plugin-jsdoc@15.12.1:
     object.entries-ponyfill "^1.0.1"
     regextras "^0.6.1"
 
-eslint-plugin-json@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-json/-/eslint-plugin-json-1.4.0.tgz#4d29f3a4c08d412df739bd65049ce23636515af8"
-  integrity sha512-CECvgRAWtUzuepdlPWd+VA7fhyF9HT183pZnl8wQw5x699Mk/MbME/q8xtULBfooi3LUbj6fToieNmsvUcDxWA==
+eslint-plugin-json@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-json/-/eslint-plugin-json-2.0.1.tgz#825ba21fed9522a7080044f0692ffffffbc237e3"
+  integrity sha512-IxKZIlMyBn0tvxlBj2viW0N/UBuoey1oYpV+SNVuNFmy4xsNuwgeoOjzEeFDnVXL0FpIo7UbQSeZ+lfh2D/nLQ==
   dependencies:
-    vscode-json-languageservice "^3.2.1"
+    lodash "^4.17.15"
+    vscode-json-languageservice "^3.3.5"
 
 eslint-plugin-markdown@1.0.1:
   version "1.0.1"
@@ -8688,7 +8689,7 @@ vorpal@^1.12.0:
     strip-ansi "^3.0.0"
     wrap-ansi "^2.0.0"
 
-vscode-json-languageservice@^3.2.1:
+vscode-json-languageservice@^3.3.5:
   version "3.3.5"
   resolved "https://registry.yarnpkg.com/vscode-json-languageservice/-/vscode-json-languageservice-3.3.5.tgz#e222e8391beeb23cfa40cf17fd57d1594d295fc7"
   integrity sha512-Le6SG5aRdrRc5jVeVMRkYbGH9rrVaZHCW0Oa8zCFQ0T8viUud9qdZ29lSv5NPNLwTB8mn4pYucFyyEPM2YWvLA==
