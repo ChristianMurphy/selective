@@ -2902,10 +2902,10 @@ eslint-plugin-jest@23.0.4:
   dependencies:
     "@typescript-eslint/experimental-utils" "^2.5.0"
 
-eslint-plugin-jsdoc@17.1.2:
-  version "17.1.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-17.1.2.tgz#1d2bcdd918c2665dfabe1d60714663f4afe4ae88"
-  integrity sha512-x3XbsYUF8VFTMi+Ssdezh4g77PodQyFcZ0DPQOeSkvI5EyHGV31yH3ekcD69JChEb5BkmcUu07FtLFuaxE97PQ==
+eslint-plugin-jsdoc@18.1.2:
+  version "18.1.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-18.1.2.tgz#2f65d95aa0e455e8624e92ff10bda17a7a86316c"
+  integrity sha512-bcMjTbnRwCv+cGHzyW4m50xhWb7mRSs+6cq9jNq23QjAXAYaFMQxklkF358rymit3Hkf7qSRSxSeERI9Zz5WiQ==
   dependencies:
     comment-parser "^0.7.0"
     debug "^4.1.1"
@@ -2913,6 +2913,8 @@ eslint-plugin-jsdoc@17.1.2:
     lodash "^4.17.15"
     object.entries-ponyfill "^1.0.1"
     regextras "^0.6.1"
+    semver "^6.3.0"
+    spdx-expression-parse "^3.0.0"
 
 eslint-plugin-json@^2.0.1:
   version "2.0.1"
