@@ -2946,10 +2946,10 @@ eslint-plugin-jest@23.1.1:
   dependencies:
     "@typescript-eslint/experimental-utils" "^2.5.0"
 
-eslint-plugin-jsdoc@18.6.0:
-  version "18.6.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-18.6.0.tgz#a9577acce3ab9b52d9efa749eb4574b4b0952a4a"
-  integrity sha512-+wxuqNmmjmXKethdtaR5EgdnOnEHmNlGtqdHwct6RhCSWK26UsSjxJJRp3nZK6da4v6A/RR/9Ukj42cfOniuOQ==
+eslint-plugin-jsdoc@18.6.1:
+  version "18.6.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-18.6.1.tgz#42453fbd36baebd16765934b2754aa2baaff2b37"
+  integrity sha512-i5hLOqKmZtIr4HPSKJLSclNLgEOsvYlEqiUEhhK/e2CxY1Bpw0UrXpm96gSg/ZBLoMo80MXoCFmq6R2bv9ZTWg==
   dependencies:
     comment-parser "^0.7.2"
     debug "^4.1.1"
