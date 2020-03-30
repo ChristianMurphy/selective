@@ -8506,15 +8506,14 @@ unified-args@^8.0.0:
     text-table "^0.2.0"
     unified-engine "^8.0.0"
 
-unified-engine-atom@8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/unified-engine-atom/-/unified-engine-atom-8.0.0.tgz#8111ba25beb0710fff0647d9f76d7cf1f675ad2f"
-  integrity sha512-HL396y9yv0gF+qxPyG/4c7yFxW2aGB7lybUe9//6nYexhqzXk9bgq7m3dxFsUOtkHzm3kXFjSd6xDgN23btV9Q==
+unified-engine-atom@9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/unified-engine-atom/-/unified-engine-atom-9.0.0.tgz#21bf15496d13d496181df1433b51584379cef23c"
+  integrity sha512-rPQmUbOhxUeAfzeDnmhdUp5D1IbvsPhMnvo1YA6n2Zml2EcFsTU9gNVGNPKYuWiWnclXNWliVzbRMuMcFAvMxg==
   dependencies:
     find-root "^1.0.0"
     to-vfile "^6.0.0"
-    unified-engine "^7.0.0"
-    xtend "^4.0.1"
+    unified-engine "^8.0.0"
 
 unified-engine@^7.0.0:
   version "7.0.0"
