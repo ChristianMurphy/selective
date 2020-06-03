@@ -33,7 +33,7 @@
     "jest": "25.5.4",
     "lerna": "3.20.2",
     "lint-staged": "9.5.0",
-    "prettier": "1.19.1",
+    "prettier": "2.0.5",
     "remark-cli": "8.0.0",
     "remark-preset-lint-consistent": "3.0.0",
     "remark-preset-lint-recommended": "4.0.0",
