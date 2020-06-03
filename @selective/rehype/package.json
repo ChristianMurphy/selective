@@ -1,6 +1,6 @@
 {
   "name": "@selective/rehype",
-  "version": "0.2.10",
+  "version": "0.3.0",
   "description": "Rehype plugin to run selective lint",
   "keywords": [
     "lint",
@@ -24,9 +24,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@selective/lint": "^0.2.10",
-    "@selective/marker": "0.2.1",
-    "@selective/parse": "^0.2.10",
+    "@selective/lint": "^0.3.0",
+    "@selective/marker": "^0.3.0",
+    "@selective/parse": "^0.3.0",
     "unified-message-control": "^3.0.0"
   },
   "devDependencies": {

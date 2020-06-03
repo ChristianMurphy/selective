@@ -1,6 +1,6 @@
 {
   "name": "@selective/marker",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Rehype plugin to run selective lint",
   "keywords": [
     "lint",

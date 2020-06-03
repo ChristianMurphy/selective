@@ -1,6 +1,6 @@
 {
   "name": "@selective/lint",
-  "version": "0.2.10",
+  "version": "0.3.0",
   "description": "Apply selective rules to an HTML string",
   "keywords": [
     "lint",
