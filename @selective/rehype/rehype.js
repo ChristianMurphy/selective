@@ -14,6 +14,6 @@ module.exports = (
   const configFile = readFileSync(configPath);
   const rules = parse(configFile);
   return linter(rules).concat([
-    [control, { name: "selective", marker, test: "comment" }]
+    [control, { name: "selective", marker, test: "comment" }],
   ]);
 };

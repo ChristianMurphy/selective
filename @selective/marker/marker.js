@@ -1,4 +1,4 @@
-module.exports = node => {
+module.exports = (node) => {
   const { value, type } = node;
 
   if (type !== "comment") {
@@ -22,7 +22,7 @@ module.exports = node => {
       name: "selective",
       attributes: "",
       parameters: {},
-      node
+      node,
     };
   }
 
@@ -41,6 +41,6 @@ module.exports = node => {
     name: "selective",
     attributes: args.join(" "),
     parameters: params,
-    node
+    node,
   };
 };

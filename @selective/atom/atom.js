@@ -9,16 +9,16 @@ module.exports.provideLinter = () => {
     name: "selective",
     scope: "file",
     lintsOnChange: true,
-    lint: editor => {
+    lint: (editor) => {
       const projectPath = atom.project.getPaths()[0];
       const configuration = {
-        config: resolve(projectPath, "config.selective")
+        config: resolve(projectPath, "config.selective"),
       };
       return engine({
         processor: rehype,
-        plugins: selective(configuration)
+        plugins: selective(configuration),
       })(editor);
-    }
+    },
   };
 };
 

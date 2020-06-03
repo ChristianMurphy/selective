@@ -15,14 +15,14 @@ const expectedProperties = ["selector", "name", "description", "recommended"];
  * @param {string} configText - Configuration text.
  * @returns {rule[]} List of rules from config file.
  */
-module.exports = configText => {
+module.exports = (configText) => {
   const configTree = parse(configText);
   const rules = [];
 
-  configTree.walkRules(rule => {
+  configTree.walkRules((rule) => {
     // collect selector from the rule
     const newRule = {
-      selector: rule.selector
+      selector: rule.selector,
     };
 
     // find each of the options from the rule
@@ -37,8 +37,8 @@ module.exports = configText => {
     // find any required properties that may be missing
     const tempKeyList = Object.keys(newRule);
     expectedProperties
-      .filter(key => !tempKeyList.includes(key))
-      .forEach(missingKey => rule.error(`missing ${missingKey}`));
+      .filter((key) => !tempKeyList.includes(key))
+      .forEach((missingKey) => rule.error(`missing ${missingKey}`));
 
     rules.push(newRule);
   });

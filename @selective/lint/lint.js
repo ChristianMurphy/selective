@@ -6,7 +6,7 @@ const rule = require("unified-lint-rule");
  * @param {rule[]} rules - List of selective lint rules.
  * @returns {rehypePluginSelectiveLint[]} List of rehype plugins for that can handle checking.
  */
-module.exports = rules =>
+module.exports = (rules) =>
   rules.map(({ selector, name, description }) =>
     rule(`selective:${name}`, (tree, file) => {
       const matches = selectAll(selector, tree);

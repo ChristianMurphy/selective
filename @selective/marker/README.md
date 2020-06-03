@@ -25,7 +25,7 @@ const marker = require("@selective/marker");
 
 const hastNode = {
   type: "comment",
-  value: "selective ignore test"
+  value: "selective ignore test",
 };
 
 const result = marker(hastNode);
@@ -47,9 +47,9 @@ console.log(result);
 
 ## References
 
-* [Hast][]
-* [Unified Message Control][]
-* [Mdast Comment Marker][]
+- [Hast][]
+- [Unified Message Control][]
+- [Mdast Comment Marker][]
 
 [hast]: https://github.com/syntax-tree/hast
 [unified message control]: https://github.com/unifiedjs/unified-message-control

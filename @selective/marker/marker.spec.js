@@ -13,7 +13,7 @@ test("parse comment with no params", () => {
     name: "selective",
     attributes: "",
     parameters: {},
-    node
+    node,
   });
 });
 
@@ -24,9 +24,9 @@ test("parse comment with short param ", () => {
     name: "selective",
     attributes: "test",
     parameters: {
-      test: true
+      test: true,
     },
-    node
+    node,
   });
 });
 
@@ -37,16 +37,16 @@ test("parse comment with long param", () => {
     name: "selective",
     attributes: "test=test",
     parameters: {
-      test: "test"
+      test: "test",
     },
-    node
+    node,
   });
 });
 
 test("parse comment with multiple params", () => {
   const node = {
     type: "comment",
-    value: "selective test=test short long=longer"
+    value: "selective test=test short long=longer",
   };
   const result = marker(node);
   expect(result).toEqual({
@@ -55,8 +55,8 @@ test("parse comment with multiple params", () => {
     parameters: {
       test: "test",
       short: true,
-      long: "longer"
+      long: "longer",
     },
-    node
+    node,
   });
 });

@@ -8,8 +8,8 @@ test("trim single quotes", () => {
       name: "test-name",
       description: "test description",
       recommended: "warn",
-      selector: ".test"
-    }
+      selector: ".test",
+    },
   ]);
 });
 
@@ -21,8 +21,8 @@ test("trim double quotes", () => {
       name: "test-name",
       description: "test description",
       recommended: "warn",
-      selector: ".test"
-    }
+      selector: ".test",
+    },
   ]);
 });
 

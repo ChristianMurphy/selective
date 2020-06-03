@@ -6,7 +6,7 @@ const rehypePlugin = require("./rehype");
 test("should find issues", () => {
   rehype()
     .use(rehypePlugin({ config: "@selective/rehype/example/lax.selective" }))
-    .process(readFileSync(resolve(__dirname, "example", "bad.html")), err => {
+    .process(readFileSync(resolve(__dirname, "example", "bad.html")), (err) => {
       expect(err).toBeDefined();
     });
 });
@@ -14,7 +14,7 @@ test("should find issues", () => {
 test("should find no issues", () => {
   rehype()
     .use(rehypePlugin({ config: "@selective/rehype/example/strict.selective" }))
-    .process(readFileSync(resolve(__dirname, "example", "bad.html")), err => {
+    .process(readFileSync(resolve(__dirname, "example", "bad.html")), (err) => {
       expect(err).toBeNull();
     });
 });

@@ -40,4 +40,4 @@ console.log(rules);
 
 ## References
 
-* [PostCSS API](https://api.postcss.org/)
+- [PostCSS API](https://api.postcss.org/)

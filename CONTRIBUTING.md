@@ -11,8 +11,8 @@
 
 1. [Open an issue on GitHub](https://github.com/ChristianMurphy/selective/issues/new)
 2. Describe the feature
-   * Provide an example if possible
-   * Include links to external references as needed
+   - Provide an example if possible
+   - Include links to external references as needed
 3. Consider opening a [Pull Request](#sharing-code)
 
 ## Sharing Documentation
@@ -47,8 +47,8 @@
 ### Setup
 
 1. `git clone https://github.com/ChristianMurphy/selective`
-   * :notebook: alternatively replace `ChristianMurphy/selective` with a fork name
-   * If installing a fork additionally run `git remote add upstream https://github.com/ChristianMurphy/selective`
+   - :notebook: alternatively replace `ChristianMurphy/selective` with a fork name
+   - If installing a fork additionally run `git remote add upstream https://github.com/ChristianMurphy/selective`
 2. `cd selective`
 3. `yarn`
 4. `lerna bootstrap`

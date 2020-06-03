@@ -27,13 +27,13 @@ Use a [CSS Selector](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Select
 
 Instead of the usual style rules, linter rules are used.
 
-* `name` a unique identifier for easily tracking down the rule
-* `description` an explanation of the problem.
-* `recommended` how this will be reported, can be one of:
-  * `error` will stop processing and return an error code
-  * `warn` will continue processing, but highlight as important, no error code.
-  * `info` will continue processing, no error code.
-  * `off` disabled
+- `name` a unique identifier for easily tracking down the rule
+- `description` an explanation of the problem.
+- `recommended` how this will be reported, can be one of:
+  - `error` will stop processing and return an error code
+  - `warn` will continue processing, but highlight as important, no error code.
+  - `info` will continue processing, no error code.
+  - `off` disabled
 
 ## Example Rules
 
@@ -101,17 +101,17 @@ const { readFileSync } = require("fs");
 
 rehype()
   .use(selectiveRehype, {
-    config: "config.selective"
+    config: "config.selective",
   })
-  .process(readFileSync("somefile.html"), err => {
+  .process(readFileSync("somefile.html"), (err) => {
     console.error(err);
   });
 ```
 
 ## References
 
-* [Rehype][]
-* [CSS Selectors][]
+- [Rehype][]
+- [CSS Selectors][]
 
 [css selectors]: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
 [rehype]: https://github.com/rehypejs/rehype

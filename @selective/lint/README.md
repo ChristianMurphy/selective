@@ -31,19 +31,19 @@ rehype()
       name: "img-alt",
       description: "image tag must contain an alt property",
       recommended: "warn",
-      selector: "img:not([alt])"
-    }
+      selector: "img:not([alt])",
+    },
   ])
-  .process(readFileSync("somefile.html"), err => {
+  .process(readFileSync("somefile.html"), (err) => {
     console.error(err);
   });
 ```
 
 ## References
 
-* [Rehype][]
-* [Unified Plugin API][]
-* [vFile][]
+- [Rehype][]
+- [Unified Plugin API][]
+- [vFile][]
 
 [rehype]: https://github.com/rehypejs/rehype
 [unified plugin api]: https://unifiedjs.github.io/create-a-plugin.html

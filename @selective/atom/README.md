@@ -21,8 +21,8 @@ yarn add @selective/atom
 
 ## References
 
-* [Atom][]
-* [Linter Selective][]
+- [Atom][]
+- [Linter Selective][]
 
 [atom]: https://atom.io
 [linter selective]: https://github.com/rehypejs/rehype
