@@ -27,7 +27,7 @@
     "@selective/lint": "^0.2.10",
     "@selective/marker": "0.2.1",
     "@selective/parse": "^0.2.10",
-    "unified-message-control": "^2.0.0"
+    "unified-message-control": "^3.0.0"
   },
   "devDependencies": {
     "rehype": "10.0.0"
