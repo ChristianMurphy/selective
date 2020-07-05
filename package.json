@@ -26,7 +26,7 @@
     "@commitlint/travis-cli": "9.0.1",
     "eslint": "7.4.0",
     "eslint-config-standard-jsdoc": "9.3.0",
-    "eslint-plugin-jest": "23.17.1",
+    "eslint-plugin-jest": "23.18.0",
     "eslint-plugin-jsdoc": "28.5.1",
     "eslint-plugin-markdown": "1.0.2",
     "husky": "4.2.5",
