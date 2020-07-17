@@ -34,7 +34,7 @@
     "lerna": "3.22.1",
     "lint-staged": "10.2.11",
     "prettier": "2.0.5",
-    "remark-cli": "8.0.0",
+    "remark-cli": "8.0.1",
     "remark-preset-lint-consistent": "3.0.1",
     "remark-preset-lint-recommended": "4.0.1",
     "remark-validate-links": "10.0.2"
