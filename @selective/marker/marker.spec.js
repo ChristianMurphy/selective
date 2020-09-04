@@ -17,7 +17,7 @@ test("parse comment with no params", () => {
   });
 });
 
-test("parse comment with short param ", () => {
+test("parse comment with short param", () => {
   const node = { type: "comment", value: "selective test" };
   const result = marker(node);
   expect(result).toEqual({
