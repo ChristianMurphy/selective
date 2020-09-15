@@ -24,6 +24,6 @@
     "access": "public"
   },
   "dependencies": {
-    "postcss": "7.0.32"
+    "postcss": "8.0.1"
   }
 }
