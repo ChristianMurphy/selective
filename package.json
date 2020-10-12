@@ -35,7 +35,7 @@
     "lint-staged": "10.4.0",
     "prettier": "2.1.2",
     "remark-cli": "8.0.1",
-    "remark-preset-lint-consistent": "3.0.1",
+    "remark-preset-lint-consistent": "4.0.0",
     "remark-preset-lint-recommended": "4.0.1",
     "remark-validate-links": "10.0.2"
   },
