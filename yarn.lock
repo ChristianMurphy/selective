@@ -2099,13 +2099,10 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-atom-package-deps@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/atom-package-deps/-/atom-package-deps-6.0.0.tgz#9233ba39ecacfcc80d2611975d21236a384fa777"
-  integrity sha512-9UQx2sTvBiaIHcZ3le/B0djM+jsZXBQRPXatrmtNfjkbAOV5bGrcXzcV4U0EBfGdzB7QmWeOnwMIJwa3HvW7Kg==
-  dependencies:
-    sb-fs "^4.0.0"
-    semver "^7.3.2"
+atom-package-deps@7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/atom-package-deps/-/atom-package-deps-7.0.3.tgz#2f28d8bd702f0b69f296d0123ded5d30a986f523"
+  integrity sha512-WTTXtkqJ/myoV3ncuqWZCU7GagG6LQfnUw7ZoH+VN/v2sRg5fEPx0leW5JgWMyd1BRRbw6pYsZkZXF+15zc3aw==
 
 aws-sign2@~0.7.0:
   version "0.7.0"
@@ -4965,7 +4962,7 @@ is-typedarray@^1.0.0, is-typedarray@~1.0.0:
   resolved "https://registry.yarnpkg.com/is-typedarray/-/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
   integrity sha1-5HnICFjfDBsR3dppQPlgEfzaSpo=
 
-is-utf8@^0.2.0, is-utf8@^0.2.1:
+is-utf8@^0.2.0:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/is-utf8/-/is-utf8-0.2.1.tgz#4b0da1442104d1b336340e80797e865cf39f7d72"
   integrity sha1-Sw2hRCEE0bM2NA6AeX6GXPOffXI=
@@ -8066,13 +8063,6 @@ saxes@^5.0.0:
   dependencies:
     xmlchars "^2.2.0"
 
-sb-fs@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/sb-fs/-/sb-fs-4.0.0.tgz#b84ca0045f09d4643304113d4e0543b508a56f73"
-  integrity sha512-UjjIHC4uahPWvKYqgknvFCCJ11S0oDahz+nsmyTCAmARKto31aoE+Lu7GGGK0nogengJEKGzFdh46ho5+IL88Q==
-  dependencies:
-    strip-bom-buf "^1.0.0"
-
 semver-compare@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/semver-compare/-/semver-compare-1.0.0.tgz#0dee216a1c941ab37e9efb1788f6afc5ff5537fc"
@@ -8543,13 +8533,6 @@ strip-ansi@^6.0.0:
   integrity sha512-AuvKTrTfQNYNIctbR1K/YGTR1756GycPsg7b9bdV9Duqur4gv6aKqHXah67Z8ImS7WEz5QVcOtlfW2rZEugt6w==
   dependencies:
     ansi-regex "^5.0.0"
-
-strip-bom-buf@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/strip-bom-buf/-/strip-bom-buf-1.0.0.tgz#1cb45aaf57530f4caf86c7f75179d2c9a51dd572"
-  integrity sha1-HLRar1dTD0yvhsf3UXnSyaUd1XI=
-  dependencies:
-    is-utf8 "^0.2.1"
 
 strip-bom@^2.0.0:
   version "2.0.0"
