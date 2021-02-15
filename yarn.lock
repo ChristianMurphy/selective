@@ -2089,10 +2089,10 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-atom-package-deps@7.2.0:
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/atom-package-deps/-/atom-package-deps-7.2.0.tgz#442207e844e88df0c64b1d076eb4018f5c4baee5"
-  integrity sha512-P7XnvYv+qYjFrdWWOuRCJ2oOe6Ps0DinwUhJ+h4Zwk/VGStO/x23A/tBDCWyvsZFwEfgGnnhTY+jZ7/pCxxYng==
+atom-package-deps@7.2.1:
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/atom-package-deps/-/atom-package-deps-7.2.1.tgz#5057c6f1198250c6d5adbaaf1f2e01d9fce603a2"
+  integrity sha512-Bp+TosS8t8FHZU9TeJIKJ9fDb0gMILCc6WCJQfhOCW0ZfGqBVLa5VzJhENBT3iHiDojWkc7o4BJUYNyptn8VtQ==
 
 aws-sign2@~0.7.0:
   version "0.7.0"
