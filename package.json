@@ -24,7 +24,7 @@
     "@commitlint/config-lerna-scopes": "12.0.1",
     "@commitlint/prompt-cli": "12.0.1",
     "@commitlint/travis-cli": "12.0.1",
-    "eslint": "7.20.0",
+    "eslint": "7.21.0",
     "eslint-config-standard-jsdoc": "9.3.0",
     "eslint-plugin-jest": "24.1.5",
     "eslint-plugin-jsdoc": "32.2.0",
