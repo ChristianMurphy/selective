@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@selective/rehype": "^0.3.0",
-    "atom-package-deps": "7.2.2",
+    "atom-package-deps": "7.2.3",
     "rehype": "11.0.0",
     "unified-engine-atom": "9.0.0"
   },
