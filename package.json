@@ -29,7 +29,7 @@
     "eslint-plugin-jest": "24.3.6",
     "eslint-plugin-jsdoc": "33.3.0",
     "eslint-plugin-markdown": "1.0.2",
-    "husky": "5.2.0",
+    "husky": "6.0.0",
     "jest": "27.0.6",
     "lerna": "4.0.0",
     "lint-staged": "11.0.0",
