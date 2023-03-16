@@ -24,7 +24,7 @@
     "access": "public"
   },
   "dependencies": {
-    "hast-util-select": "4.0.2",
+    "hast-util-select": "5.0.5",
     "unified-lint-rule": "^1.0.2"
   }
 }
