@@ -2014,10 +2014,10 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-atom-package-deps@7.2.3:
-  version "7.2.3"
-  resolved "https://registry.yarnpkg.com/atom-package-deps/-/atom-package-deps-7.2.3.tgz#41345f551a197eb3a242217088a6cafa47f9fa68"
-  integrity sha512-Z1FHJS2c2xBN3wQVniG7jXDyE4mUjZlHA0tfIkCND9U/fHaZyBJPno4/jD8PtYUnhlymaHRbCsgxCU3QuKjqfQ==
+atom-package-deps@8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/atom-package-deps/-/atom-package-deps-8.0.0.tgz#6eb49ae8cb42ff14b6e437366f6b1fa7d9feb997"
+  integrity sha512-TSY6WX4+QbMK9r6iCY99hNW+9vW7SF0zGHfnMLgiinMj5VR5MNQIhU+2pVXqIbGWnl32uqBAKB+iBztUV0ssyg==
 
 aws-sign2@~0.7.0:
   version "0.7.0"
